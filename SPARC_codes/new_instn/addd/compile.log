@@ -1,0 +1,30 @@
+Info: added include-directory = /usr/include.
+Info: added include-directory = ./.
+Info: added assembly-file = addd.s.
+Info: elf-file to be produced  = addd.elf.
+Info: var-dump-file to be produced  = addd.vars.
+Info: hex-dump-file to be produced  = addd.hex.
+Info: memory-map-file to be produced  = addd.mmap.
+Info: object-dump-file to be produced  = addd.objdump.
+Info: linker_script_file  = LinkerScript.lnk.
+Info: added define_string = AJIT.
+Info: Executing:
+	rm -rf .//sparc-assembly
+Info: Executing:
+	mkdir .//sparc-assembly
+Info: Executing:
+	rm -rf .//sparc-obj
+Info: Executing:
+	mkdir .//sparc-obj
+Info: Executing:
+	sparc-linux-as   -Av8  addd.s -o .//sparc-obj/addd.o
+Info: Executing:
+	sparc-linux-ld  -e main -T LinkerScript.lnk .//sparc-obj/addd.o   -o .//addd.elf
+Info: Executing:
+	sparc-linux-readelf  --hex-dump=.text --hex-dump=.rodata --hex-dump=.rodata.str1.8 --hex-dump=.data --hex-dump=.rodata.cst8 --hex-dump=.bss  .//addd.elf | tr -cd '\11\12\15\40-\176' | grep 0x > .//addd.hex
+Info: Executing:
+	sparc-linux-readelf  --symbols .//addd.elf  > .//addd.vars
+Info: Executing:
+	Info: Generating memory map .//addd.mmap
+Info: Executing:
+	sparc-linux-objdump -d  .//addd.elf > .//addd.objdump

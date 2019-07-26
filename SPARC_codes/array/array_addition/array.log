@@ -1,0 +1,6 @@
+1. ERROR :	l0,	id = 16, 	expected = 0x3,  		actual = 0x5 (mask=0xffffffff) (cpu-id=0)
+2. ERROR :	l1,	id = 17, 	expected = 0x3,  		actual = 0x48 (mask=0xffffffff) (cpu-id=0)
+3. ERROR :	l2,	id = 18, 	expected = 0x4,  		actual = 0x4c (mask=0xffffffff) (cpu-id=0)
+4. ERROR :	l3,	id = 19, 	expected = 0x3,  		actual = 0x10 (mask=0xffffffff) (cpu-id=0)
+5. ERROR :	l4,	id = 20, 	expected = 0x1,  		actual = 0x5 (mask=0xffffffff) (cpu-id=0)
+6. ERROR :	o1,	id = 9, 	expected = 0xa,  		actual = 0x10 (mask=0xffffffff) (cpu-id=0)

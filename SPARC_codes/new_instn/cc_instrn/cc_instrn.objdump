@@ -1,0 +1,22 @@
+
+.//cc_instrn.elf:     file format elf32-sparc
+
+
+Disassembly of section .text:
+
+00000000 <main>:
+   0:	84 10 20 04 	mov  4, %g2
+   4:	86 10 20 00 	clr  %g3
+   8:	88 10 20 04 	mov  4, %g4
+   c:	8a 10 20 00 	clr  %g5
+  10:	80 a0 80 24 	subdcc  %g2, %g4, %g0
+  14:	12 80 00 04 	bne  24 <else>
+  18:	01 00 00 00 	nop 
+  1c:	85 28 80 82 	slld  %g2, 2, %g2
+
+00000020 <end>:
+  20:	91 d0 20 00 	ta  0
+
+00000024 <else>:
+  24:	85 30 80 81 	srld  %g2, 1, %g2
+  28:	10 bf ff fe 	b  20 <end>

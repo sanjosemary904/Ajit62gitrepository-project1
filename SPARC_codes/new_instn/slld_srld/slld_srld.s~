@@ -1,0 +1,14 @@
+.text 
+.global main
+main:
+start:	mov 1, %g2
+	mov 0, %g3
+
+	mov 4, %g6
+	mov 0, %g7	
+
+	slld %g2, %g6, %g2
+	srld %g2,%g6, %g4
+	srad %g2, %g6, %l0
+	ta 0
+

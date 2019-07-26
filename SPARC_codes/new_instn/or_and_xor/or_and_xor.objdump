@@ -1,0 +1,13 @@
+
+.//or_and_xor.elf:     file format elf32-sparc
+
+
+Disassembly of section .text:
+
+00000000 <main>:
+   0:	a0 10 20 03 	mov  3, %l0
+   4:	a2 10 20 00 	clr  %l1
+   8:	a4 10 20 06 	mov  6, %l2
+   c:	a6 10 20 00 	clr  %l3
+  10:	aa 3c 40 33 	xnord  %l1, %l3, %l5
+  14:	91 d0 20 00 	ta  0

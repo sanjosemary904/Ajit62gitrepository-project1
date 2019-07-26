@@ -1,0 +1,36 @@
+Info: added include-directory = /usr/include.
+Info: added include-directory = ./.
+Info: added assembly-file = init.s.
+Info: added assembly-file = /usr/local/ajit_release/tools/ajit_access_routines/asm/trap_handlers.s.
+Info: added assembly-file = subd.s.
+Info: elf-file to be produced  = subd.elf.
+Info: var-dump-file to be produced  = subd.vars.
+Info: hex-dump-file to be produced  = subd.hex.
+Info: memory-map-file to be produced  = subd.mmap.
+Info: object-dump-file to be produced  = subd.objdump.
+Info: linker_script_file  = LinkerScript.lnk.
+Info: added define_string = AJIT.
+Info: Executing:
+	rm -rf .//sparc-assembly
+Info: Executing:
+	mkdir .//sparc-assembly
+Info: Executing:
+	rm -rf .//sparc-obj
+Info: Executing:
+	mkdir .//sparc-obj
+Info: Executing:
+	sparc-linux-as   -Av8  init.s -o .//sparc-obj/init.o
+Info: Executing:
+	sparc-linux-as   -Av8  /usr/local/ajit_release/tools/ajit_access_routines/asm/trap_handlers.s -o .//sparc-obj/trap_handlers.o
+Info: Executing:
+	sparc-linux-as   -Av8  subd.s -o .//sparc-obj/subd.o
+Info: Executing:
+	sparc-linux-ld  -e main -T LinkerScript.lnk .//sparc-obj/init.o  .//sparc-obj/trap_handlers.o  .//sparc-obj/subd.o   -o .//subd.elf
+Info: Executing:
+	sparc-linux-readelf  --hex-dump=.text --hex-dump=.rodata --hex-dump=.rodata.str1.8 --hex-dump=.data --hex-dump=.rodata.cst8 --hex-dump=.bss  .//subd.elf | tr -cd '\11\12\15\40-\176' | grep 0x > .//subd.hex
+Info: Executing:
+	sparc-linux-readelf  --symbols .//subd.elf  > .//subd.vars
+Info: Executing:
+	Info: Generating memory map .//subd.mmap
+Info: Executing:
+	sparc-linux-objdump -d  .//subd.elf > .//subd.objdump

@@ -1,0 +1,888 @@
+Info: starting environment threads
+Info:pThreadUtils: started thread rlutDaemon_0
+Info:pThreadUtils: started thread icacheInvalidateDaemon_0
+Info:pThreadUtils: started thread dcacheInvalidateDaemon_0
+Info:pThreadUtils: started thread cpu_0
+Info:pThreadUtils: started thread IRC_Control
+Info:pThreadUtils: started thread IRC_Output
+Info:pThreadUtils: started thread Timer_Control
+Info:pThreadUtils: started thread Timer_Output
+Info:pThreadUtils: started thread Serial_Control
+Info:pThreadUtils: started thread Serial_Rx
+Info:pThreadUtils: started thread Serial_Tx
+Info: starting console threads.
+Info:pThreadUtils: started thread consoleOutput
+Info:pThreadUtils: started thread consoleInput
+Info:pThreadUtils: started thread bridge_cpu_0
+Info:pThreadUtils: started thread checkErrorStateAndExit_0
+
+TRAP (cpu-id=0): pc=0x00000000 npc=0x00000000 psr=0x000010c0 tv=0x00000003	RESET_TRAP
+Info: save/restore.. now fp=0xffffff00, sp=0x2a31b62d
+Info: save/restore.. now fp=0xfffffec0, sp=0x5399c654
+Info: save/restore.. now fp=0xfffffe80, sp=0x4f97e3e4
+Info: save/restore.. now fp=0xfffffe40, sp=0x78df6a55
+Info: save/restore.. now fp=0xfffffe00, sp=0x59adea3d
+Info: save/restore.. now fp=0xfffffdc0, sp=0x6fc75af8
+Info: save/restore.. now fp=0xfffffdc0, sp=0xfffffd80
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e1 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffff8, sp=0xffffff00
+Info: save/restore.. now fp=0xfffffd80, sp=0xfffffff8
+Info: save/restore.. now fp=0xfffffd80, sp=0xfffffff8
+Info: save/restore.. now fp=0xfffffd80, sp=0xfffffd40
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e0 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xffffff00, sp=0xfffffec0
+Info: save/restore.. now fp=0xfffffd40, sp=0xffffff00
+Info: save/restore.. now fp=0xfffffd40, sp=0xffffff00
+Info: save/restore.. now fp=0xfffffd40, sp=0xfffffd00
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e7 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffec0, sp=0xfffffe80
+Info: save/restore.. now fp=0xfffffd00, sp=0xfffffec0
+Info: save/restore.. now fp=0xfffffd00, sp=0xfffffec0
+Info: save/restore.. now fp=0xfffffd00, sp=0xfffffcc0
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e6 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffe80, sp=0xfffffe40
+Info: save/restore.. now fp=0xfffffcc0, sp=0xfffffe80
+Info: save/restore.. now fp=0xfffffcc0, sp=0xfffffe80
+Info: save/restore.. now fp=0xfffffcc0, sp=0xfffffc80
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e5 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffe40, sp=0xfffffe00
+Info: save/restore.. now fp=0xfffffc80, sp=0xfffffe40
+Info: save/restore.. now fp=0xfffffc80, sp=0xfffffe40
+Info: save/restore.. now fp=0xfffffc80, sp=0xfffffc40
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e4 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffe00, sp=0xfffffdc0
+Info: save/restore.. now fp=0xfffffc40, sp=0xfffffe00
+Info: save/restore.. now fp=0xfffffc40, sp=0xfffffe00
+Info: save/restore.. now fp=0xfffffc40, sp=0xfffffc00
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e3 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffdc0, sp=0xfffffd80
+Info: save/restore.. now fp=0xfffffc00, sp=0xfffffdc0
+Info: save/restore.. now fp=0xfffffc00, sp=0xfffffdc0
+Info: save/restore.. now fp=0xfffffc00, sp=0xfffffbc0
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e2 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffd80, sp=0xfffffd40
+Info: save/restore.. now fp=0xfffffbc0, sp=0xfffffd80
+Info: save/restore.. now fp=0xfffffbc0, sp=0xfffffd80
+Info: save/restore.. now fp=0xfffffbc0, sp=0xfffffb80
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e1 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffd40, sp=0xfffffd00
+Info: save/restore.. now fp=0xfffffb80, sp=0xfffffd40
+Info: save/restore.. now fp=0xfffffb80, sp=0xfffffd40
+Info: save/restore.. now fp=0xfffffb80, sp=0xfffffb40
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e0 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffd00, sp=0xfffffcc0
+Info: save/restore.. now fp=0xfffffb40, sp=0xfffffd00
+Info: save/restore.. now fp=0xfffffb40, sp=0xfffffd00
+Info: save/restore.. now fp=0xfffffb40, sp=0xfffffb00
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e7 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffcc0, sp=0xfffffc80
+Info: save/restore.. now fp=0xfffffb00, sp=0xfffffcc0
+Info: save/restore.. now fp=0xfffffb00, sp=0xfffffcc0
+Info: save/restore.. now fp=0xfffffb00, sp=0xfffffac0
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e6 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffc80, sp=0xfffffc40
+Info: save/restore.. now fp=0xfffffac0, sp=0xfffffc80
+Info: save/restore.. now fp=0xfffffac0, sp=0xfffffc80
+Info: save/restore.. now fp=0xfffffac0, sp=0xfffffa80
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e5 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffc40, sp=0xfffffc00
+Info: save/restore.. now fp=0xfffffa80, sp=0xfffffc40
+Info: save/restore.. now fp=0xfffffa80, sp=0xfffffc40
+Info: save/restore.. now fp=0xfffffa80, sp=0xfffffa40
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e4 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffc00, sp=0xfffffbc0
+Info: save/restore.. now fp=0xfffffa40, sp=0xfffffc00
+Info: save/restore.. now fp=0xfffffa40, sp=0xfffffc00
+Info: save/restore.. now fp=0xfffffa40, sp=0xfffffa00
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e3 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffbc0, sp=0xfffffb80
+Info: save/restore.. now fp=0xfffffa00, sp=0xfffffbc0
+Info: save/restore.. now fp=0xfffffa00, sp=0xfffffbc0
+Info: save/restore.. now fp=0xfffffa00, sp=0xfffff9c0
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e2 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffb80, sp=0xfffffb40
+Info: save/restore.. now fp=0xfffff9c0, sp=0xfffffb80
+Info: save/restore.. now fp=0xfffff9c0, sp=0xfffffb80
+Info: save/restore.. now fp=0xfffff9c0, sp=0xfffff980
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e1 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffb40, sp=0xfffffb00
+Info: save/restore.. now fp=0xfffff980, sp=0xfffffb40
+Info: save/restore.. now fp=0xfffff980, sp=0xfffffb40
+Info: save/restore.. now fp=0xfffff980, sp=0xfffff940
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e0 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffb00, sp=0xfffffac0
+Info: save/restore.. now fp=0xfffff940, sp=0xfffffb00
+Info: save/restore.. now fp=0xfffff940, sp=0xfffffb00
+Info: save/restore.. now fp=0xfffff940, sp=0xfffff900
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e7 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffac0, sp=0xfffffa80
+Info: save/restore.. now fp=0xfffff900, sp=0xfffffac0
+Info: save/restore.. now fp=0xfffff900, sp=0xfffffac0
+Info: save/restore.. now fp=0xfffff900, sp=0xfffff8c0
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e6 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffa80, sp=0xfffffa40
+Info: save/restore.. now fp=0xfffff8c0, sp=0xfffffa80
+Info: save/restore.. now fp=0xfffff8c0, sp=0xfffffa80
+Info: save/restore.. now fp=0xfffff8c0, sp=0xfffff880
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e5 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffa40, sp=0xfffffa00
+Info: save/restore.. now fp=0xfffff880, sp=0xfffffa40
+Info: save/restore.. now fp=0xfffff880, sp=0xfffffa40
+Info: save/restore.. now fp=0xfffff880, sp=0xfffff840
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e4 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffffa00, sp=0xfffff9c0
+Info: save/restore.. now fp=0xfffff840, sp=0xfffffa00
+Info: save/restore.. now fp=0xfffff840, sp=0xfffffa00
+Info: save/restore.. now fp=0xfffff840, sp=0xfffff800
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e3 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff9c0, sp=0xfffff980
+Info: save/restore.. now fp=0xfffff800, sp=0xfffff9c0
+Info: save/restore.. now fp=0xfffff800, sp=0xfffff9c0
+Info: save/restore.. now fp=0xfffff800, sp=0xfffff7c0
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e2 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff980, sp=0xfffff940
+Info: save/restore.. now fp=0xfffff7c0, sp=0xfffff980
+Info: save/restore.. now fp=0xfffff7c0, sp=0xfffff980
+Info: save/restore.. now fp=0xfffff7c0, sp=0xfffff780
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e1 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff940, sp=0xfffff900
+Info: save/restore.. now fp=0xfffff780, sp=0xfffff940
+Info: save/restore.. now fp=0xfffff780, sp=0xfffff940
+Info: save/restore.. now fp=0xfffff780, sp=0xfffff740
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e0 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff900, sp=0xfffff8c0
+Info: save/restore.. now fp=0xfffff740, sp=0xfffff900
+Info: save/restore.. now fp=0xfffff740, sp=0xfffff900
+Info: save/restore.. now fp=0xfffff740, sp=0xfffff700
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e7 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff8c0, sp=0xfffff880
+Info: save/restore.. now fp=0xfffff700, sp=0xfffff8c0
+Info: save/restore.. now fp=0xfffff700, sp=0xfffff8c0
+Info: save/restore.. now fp=0xfffff700, sp=0xfffff6c0
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e6 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff880, sp=0xfffff840
+Info: save/restore.. now fp=0xfffff6c0, sp=0xfffff880
+Info: save/restore.. now fp=0xfffff6c0, sp=0xfffff880
+Info: save/restore.. now fp=0xfffff6c0, sp=0xfffff680
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e5 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff840, sp=0xfffff800
+Info: save/restore.. now fp=0xfffff680, sp=0xfffff840
+Info: save/restore.. now fp=0xfffff680, sp=0xfffff840
+Info: save/restore.. now fp=0xfffff680, sp=0xfffff640
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e4 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff800, sp=0xfffff7c0
+Info: save/restore.. now fp=0xfffff640, sp=0xfffff800
+Info: save/restore.. now fp=0xfffff640, sp=0xfffff800
+Info: save/restore.. now fp=0xfffff640, sp=0xfffff600
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e3 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff7c0, sp=0xfffff780
+Info: save/restore.. now fp=0xfffff600, sp=0xfffff7c0
+Info: save/restore.. now fp=0xfffff600, sp=0xfffff7c0
+Info: save/restore.. now fp=0xfffff600, sp=0xfffff5c0
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e2 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff780, sp=0xfffff740
+Info: save/restore.. now fp=0xfffff5c0, sp=0xfffff780
+Info: save/restore.. now fp=0xfffff5c0, sp=0xfffff780
+Info: save/restore.. now fp=0xfffff5c0, sp=0xfffff580
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e1 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff740, sp=0xfffff700
+Info: save/restore.. now fp=0xfffff580, sp=0xfffff740
+Info: save/restore.. now fp=0xfffff580, sp=0xfffff740
+Info: save/restore.. now fp=0xfffff580, sp=0xfffff540
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e0 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff700, sp=0xfffff6c0
+Info: save/restore.. now fp=0xfffff540, sp=0xfffff700
+Info: save/restore.. now fp=0xfffff540, sp=0xfffff700
+Info: save/restore.. now fp=0xfffff540, sp=0xfffff500
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e7 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff6c0, sp=0xfffff680
+Info: save/restore.. now fp=0xfffff500, sp=0xfffff6c0
+Info: save/restore.. now fp=0xfffff500, sp=0xfffff6c0
+Info: save/restore.. now fp=0xfffff500, sp=0xfffff4c0
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e6 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff680, sp=0xfffff640
+Info: save/restore.. now fp=0xfffff4c0, sp=0xfffff680
+Info: save/restore.. now fp=0xfffff4c0, sp=0xfffff680
+Info: save/restore.. now fp=0xfffff4c0, sp=0xfffff480
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e5 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff640, sp=0xfffff600
+Info: save/restore.. now fp=0xfffff480, sp=0xfffff640
+Info: save/restore.. now fp=0xfffff480, sp=0xfffff640
+Info: save/restore.. now fp=0xfffff480, sp=0xfffff440
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e4 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff600, sp=0xfffff5c0
+Info: save/restore.. now fp=0xfffff440, sp=0xfffff600
+Info: save/restore.. now fp=0xfffff440, sp=0xfffff600
+Info: save/restore.. now fp=0xfffff440, sp=0xfffff400
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e3 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff5c0, sp=0xfffff580
+Info: save/restore.. now fp=0xfffff400, sp=0xfffff5c0
+Info: save/restore.. now fp=0xfffff400, sp=0xfffff5c0
+Info: save/restore.. now fp=0xfffff400, sp=0xfffff3c0
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e2 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff580, sp=0xfffff540
+Info: save/restore.. now fp=0xfffff3c0, sp=0xfffff580
+Info: save/restore.. now fp=0xfffff3c0, sp=0xfffff580
+Info: save/restore.. now fp=0xfffff3c0, sp=0xfffff380
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e1 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff540, sp=0xfffff500
+Info: save/restore.. now fp=0xfffff380, sp=0xfffff540
+Info: save/restore.. now fp=0xfffff380, sp=0xfffff540
+Info: save/restore.. now fp=0xfffff380, sp=0xfffff340
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e0 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff500, sp=0xfffff4c0
+Info: save/restore.. now fp=0xfffff340, sp=0xfffff500
+Info: save/restore.. now fp=0xfffff340, sp=0xfffff500
+Info: save/restore.. now fp=0xfffff340, sp=0xfffff300
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e7 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff4c0, sp=0xfffff480
+Info: save/restore.. now fp=0xfffff300, sp=0xfffff4c0
+Info: save/restore.. now fp=0xfffff300, sp=0xfffff4c0
+Info: save/restore.. now fp=0xfffff300, sp=0xfffff2c0
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e6 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff480, sp=0xfffff440
+Info: save/restore.. now fp=0xfffff2c0, sp=0xfffff480
+Info: save/restore.. now fp=0xfffff2c0, sp=0xfffff480
+Info: save/restore.. now fp=0xfffff2c0, sp=0xfffff280
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e5 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff440, sp=0xfffff400
+Info: save/restore.. now fp=0xfffff280, sp=0xfffff440
+Info: save/restore.. now fp=0xfffff280, sp=0xfffff440
+Info: save/restore.. now fp=0xfffff280, sp=0xfffff240
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e4 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff400, sp=0xfffff3c0
+Info: save/restore.. now fp=0xfffff240, sp=0xfffff400
+Info: save/restore.. now fp=0xfffff240, sp=0xfffff400
+Info: save/restore.. now fp=0xfffff240, sp=0xfffff200
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e3 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff3c0, sp=0xfffff380
+Info: save/restore.. now fp=0xfffff200, sp=0xfffff3c0
+Info: save/restore.. now fp=0xfffff200, sp=0xfffff3c0
+Info: save/restore.. now fp=0xfffff200, sp=0xfffff1c0
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e2 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff380, sp=0xfffff340
+Info: save/restore.. now fp=0xfffff1c0, sp=0xfffff380
+Info: save/restore.. now fp=0xfffff1c0, sp=0xfffff380
+Info: save/restore.. now fp=0xfffff1c0, sp=0xfffff180
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e1 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff340, sp=0xfffff300
+Info: save/restore.. now fp=0xfffff180, sp=0xfffff340
+Info: save/restore.. now fp=0xfffff180, sp=0xfffff340
+Info: save/restore.. now fp=0xfffff180, sp=0xfffff140
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e0 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff300, sp=0xfffff2c0
+Info: save/restore.. now fp=0xfffff140, sp=0xfffff300
+Info: save/restore.. now fp=0xfffff140, sp=0xfffff300
+Info: save/restore.. now fp=0xfffff140, sp=0xfffff100
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e7 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff2c0, sp=0xfffff280
+Info: save/restore.. now fp=0xfffff100, sp=0xfffff2c0
+Info: save/restore.. now fp=0xfffff100, sp=0xfffff2c0
+Info: save/restore.. now fp=0xfffff100, sp=0xfffff0c0
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e6 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff280, sp=0xfffff240
+Info: save/restore.. now fp=0xfffff0c0, sp=0xfffff280
+Info: save/restore.. now fp=0xfffff0c0, sp=0xfffff280
+Info: save/restore.. now fp=0xfffff0c0, sp=0xfffff080
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e5 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff240, sp=0xfffff200
+Info: save/restore.. now fp=0xfffff080, sp=0xfffff240
+Info: save/restore.. now fp=0xfffff080, sp=0xfffff240
+Info: save/restore.. now fp=0xfffff080, sp=0xfffff040
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e4 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff200, sp=0xfffff1c0
+Info: save/restore.. now fp=0xfffff040, sp=0xfffff200
+Info: save/restore.. now fp=0xfffff040, sp=0xfffff200
+Info: save/restore.. now fp=0xfffff040, sp=0xfffff000
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e3 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff1c0, sp=0xfffff180
+Info: save/restore.. now fp=0xfffff000, sp=0xfffff1c0
+Info: save/restore.. now fp=0xfffff000, sp=0xfffff1c0
+Info: save/restore.. now fp=0xfffff000, sp=0xffffefc0
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e2 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff180, sp=0xfffff140
+Info: save/restore.. now fp=0xffffefc0, sp=0xfffff180
+Info: save/restore.. now fp=0xffffefc0, sp=0xfffff180
+Info: save/restore.. now fp=0xffffefc0, sp=0xffffef80
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e1 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff140, sp=0xfffff100
+Info: save/restore.. now fp=0xffffef80, sp=0xfffff140
+Info: save/restore.. now fp=0xffffef80, sp=0xfffff140
+Info: save/restore.. now fp=0xffffef80, sp=0xffffef40
+
+TRAP (cpu-id=0): pc=0x00003014 npc=0x00003018 psr=0x000010e0 tv=0x00004001	WINDOW_OVERFLOW
+Info: save/restore.. now fp=0xfffff100, sp=0xfffff0c0
+Info: save/restore.. now fp=0xffffef40, sp=0xfffff100
+Info: save/restore.. now fp=0xffffef40, sp=0xfffff100
+Info: save/restore.. now fp=0xffffef80, sp=0xffffef40
+Info: save/restore.. now fp=0xffffefc0, sp=0xffffef80
+Info: save/restore.. now fp=0xfffff000, sp=0xffffefc0
+Info: save/restore.. now fp=0xfffff040, sp=0xfffff000
+Info: save/restore.. now fp=0xfffff080, sp=0xfffff040
+Info: save/restore.. now fp=0xfffff0c0, sp=0xfffff080
+Info: save/restore.. now fp=0xfffff0c0, sp=0xfffff080
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e5 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff0c0, sp=0xfffff080
+Info: save/restore.. now fp=0xffffef00, sp=0xfffff0c0
+Info: save/restore.. now fp=0xfffff0c0, sp=0xfffff080
+Info: save/restore.. now fp=0xfffff080, sp=0xfffff040
+Info: save/restore.. now fp=0xfffff100, sp=0xfffff0c0
+Info: save/restore.. now fp=0xfffff100, sp=0xfffff0c0
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e6 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff100, sp=0xfffff0c0
+Info: save/restore.. now fp=0xffffef40, sp=0xfffff100
+Info: save/restore.. now fp=0xfffff100, sp=0xfffff0c0
+Info: save/restore.. now fp=0xfffff0c0, sp=0xfffff080
+Info: save/restore.. now fp=0xfffff140, sp=0xfffff100
+Info: save/restore.. now fp=0xfffff140, sp=0xfffff100
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e7 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff140, sp=0xfffff100
+Info: save/restore.. now fp=0xffffef80, sp=0xfffff140
+Info: save/restore.. now fp=0xfffff140, sp=0xfffff100
+Info: save/restore.. now fp=0xfffff100, sp=0xfffff0c0
+Info: save/restore.. now fp=0xfffff180, sp=0xfffff140
+Info: save/restore.. now fp=0xfffff180, sp=0xfffff140
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e0 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff180, sp=0xfffff140
+Info: save/restore.. now fp=0xffffefc0, sp=0xfffff180
+Info: save/restore.. now fp=0xfffff180, sp=0xfffff140
+Info: save/restore.. now fp=0xfffff140, sp=0xfffff100
+Info: save/restore.. now fp=0xfffff1c0, sp=0xfffff180
+Info: save/restore.. now fp=0xfffff1c0, sp=0xfffff180
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e1 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff1c0, sp=0xfffff180
+Info: save/restore.. now fp=0xfffff000, sp=0xfffff1c0
+Info: save/restore.. now fp=0xfffff1c0, sp=0xfffff180
+Info: save/restore.. now fp=0xfffff180, sp=0xfffff140
+Info: save/restore.. now fp=0xfffff200, sp=0xfffff1c0
+Info: save/restore.. now fp=0xfffff200, sp=0xfffff1c0
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e2 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff200, sp=0xfffff1c0
+Info: save/restore.. now fp=0xfffff040, sp=0xfffff200
+Info: save/restore.. now fp=0xfffff200, sp=0xfffff1c0
+Info: save/restore.. now fp=0xfffff1c0, sp=0xfffff180
+Info: save/restore.. now fp=0xfffff240, sp=0xfffff200
+Info: save/restore.. now fp=0xfffff240, sp=0xfffff200
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e3 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff240, sp=0xfffff200
+Info: save/restore.. now fp=0xfffff080, sp=0xfffff240
+Info: save/restore.. now fp=0xfffff240, sp=0xfffff200
+Info: save/restore.. now fp=0xfffff200, sp=0xfffff1c0
+Info: save/restore.. now fp=0xfffff280, sp=0xfffff240
+Info: save/restore.. now fp=0xfffff280, sp=0xfffff240
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e4 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff280, sp=0xfffff240
+Info: save/restore.. now fp=0xfffff0c0, sp=0xfffff280
+Info: save/restore.. now fp=0xfffff280, sp=0xfffff240
+Info: save/restore.. now fp=0xfffff240, sp=0xfffff200
+Info: save/restore.. now fp=0xfffff2c0, sp=0xfffff280
+Info: save/restore.. now fp=0xfffff2c0, sp=0xfffff280
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e5 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff2c0, sp=0xfffff280
+Info: save/restore.. now fp=0xfffff100, sp=0xfffff2c0
+Info: save/restore.. now fp=0xfffff2c0, sp=0xfffff280
+Info: save/restore.. now fp=0xfffff280, sp=0xfffff240
+Info: save/restore.. now fp=0xfffff300, sp=0xfffff2c0
+Info: save/restore.. now fp=0xfffff300, sp=0xfffff2c0
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e6 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff300, sp=0xfffff2c0
+Info: save/restore.. now fp=0xfffff140, sp=0xfffff300
+Info: save/restore.. now fp=0xfffff300, sp=0xfffff2c0
+Info: save/restore.. now fp=0xfffff2c0, sp=0xfffff280
+Info: save/restore.. now fp=0xfffff340, sp=0xfffff300
+Info: save/restore.. now fp=0xfffff340, sp=0xfffff300
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e7 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff340, sp=0xfffff300
+Info: save/restore.. now fp=0xfffff180, sp=0xfffff340
+Info: save/restore.. now fp=0xfffff340, sp=0xfffff300
+Info: save/restore.. now fp=0xfffff300, sp=0xfffff2c0
+Info: save/restore.. now fp=0xfffff380, sp=0xfffff340
+Info: save/restore.. now fp=0xfffff380, sp=0xfffff340
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e0 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff380, sp=0xfffff340
+Info: save/restore.. now fp=0xfffff1c0, sp=0xfffff380
+Info: save/restore.. now fp=0xfffff380, sp=0xfffff340
+Info: save/restore.. now fp=0xfffff340, sp=0xfffff300
+Info: save/restore.. now fp=0xfffff3c0, sp=0xfffff380
+Info: save/restore.. now fp=0xfffff3c0, sp=0xfffff380
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e1 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff3c0, sp=0xfffff380
+Info: save/restore.. now fp=0xfffff200, sp=0xfffff3c0
+Info: save/restore.. now fp=0xfffff3c0, sp=0xfffff380
+Info: save/restore.. now fp=0xfffff380, sp=0xfffff340
+Info: save/restore.. now fp=0xfffff400, sp=0xfffff3c0
+Info: save/restore.. now fp=0xfffff400, sp=0xfffff3c0
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e2 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff400, sp=0xfffff3c0
+Info: save/restore.. now fp=0xfffff240, sp=0xfffff400
+Info: save/restore.. now fp=0xfffff400, sp=0xfffff3c0
+Info: save/restore.. now fp=0xfffff3c0, sp=0xfffff380
+Info: save/restore.. now fp=0xfffff440, sp=0xfffff400
+Info: save/restore.. now fp=0xfffff440, sp=0xfffff400
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e3 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff440, sp=0xfffff400
+Info: save/restore.. now fp=0xfffff280, sp=0xfffff440
+Info: save/restore.. now fp=0xfffff440, sp=0xfffff400
+Info: save/restore.. now fp=0xfffff400, sp=0xfffff3c0
+Info: save/restore.. now fp=0xfffff480, sp=0xfffff440
+Info: save/restore.. now fp=0xfffff480, sp=0xfffff440
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e4 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff480, sp=0xfffff440
+Info: save/restore.. now fp=0xfffff2c0, sp=0xfffff480
+Info: save/restore.. now fp=0xfffff480, sp=0xfffff440
+Info: save/restore.. now fp=0xfffff440, sp=0xfffff400
+Info: save/restore.. now fp=0xfffff4c0, sp=0xfffff480
+Info: save/restore.. now fp=0xfffff4c0, sp=0xfffff480
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e5 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff4c0, sp=0xfffff480
+Info: save/restore.. now fp=0xfffff300, sp=0xfffff4c0
+Info: save/restore.. now fp=0xfffff4c0, sp=0xfffff480
+Info: save/restore.. now fp=0xfffff480, sp=0xfffff440
+Info: save/restore.. now fp=0xfffff500, sp=0xfffff4c0
+Info: save/restore.. now fp=0xfffff500, sp=0xfffff4c0
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e6 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff500, sp=0xfffff4c0
+Info: save/restore.. now fp=0xfffff340, sp=0xfffff500
+Info: save/restore.. now fp=0xfffff500, sp=0xfffff4c0
+Info: save/restore.. now fp=0xfffff4c0, sp=0xfffff480
+Info: save/restore.. now fp=0xfffff540, sp=0xfffff500
+Info: save/restore.. now fp=0xfffff540, sp=0xfffff500
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e7 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff540, sp=0xfffff500
+Info: save/restore.. now fp=0xfffff380, sp=0xfffff540
+Info: save/restore.. now fp=0xfffff540, sp=0xfffff500
+Info: save/restore.. now fp=0xfffff500, sp=0xfffff4c0
+Info: save/restore.. now fp=0xfffff580, sp=0xfffff540
+Info: save/restore.. now fp=0xfffff580, sp=0xfffff540
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e0 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff580, sp=0xfffff540
+Info: save/restore.. now fp=0xfffff3c0, sp=0xfffff580
+Info: save/restore.. now fp=0xfffff580, sp=0xfffff540
+Info: save/restore.. now fp=0xfffff540, sp=0xfffff500
+Info: save/restore.. now fp=0xfffff5c0, sp=0xfffff580
+Info: save/restore.. now fp=0xfffff5c0, sp=0xfffff580
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e1 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff5c0, sp=0xfffff580
+Info: save/restore.. now fp=0xfffff400, sp=0xfffff5c0
+Info: save/restore.. now fp=0xfffff5c0, sp=0xfffff580
+Info: save/restore.. now fp=0xfffff580, sp=0xfffff540
+Info: save/restore.. now fp=0xfffff600, sp=0xfffff5c0
+Info: save/restore.. now fp=0xfffff600, sp=0xfffff5c0
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e2 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff600, sp=0xfffff5c0
+Info: save/restore.. now fp=0xfffff440, sp=0xfffff600
+Info: save/restore.. now fp=0xfffff600, sp=0xfffff5c0
+Info: save/restore.. now fp=0xfffff5c0, sp=0xfffff580
+Info: save/restore.. now fp=0xfffff640, sp=0xfffff600
+Info: save/restore.. now fp=0xfffff640, sp=0xfffff600
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e3 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff640, sp=0xfffff600
+Info: save/restore.. now fp=0xfffff480, sp=0xfffff640
+Info: save/restore.. now fp=0xfffff640, sp=0xfffff600
+Info: save/restore.. now fp=0xfffff600, sp=0xfffff5c0
+Info: save/restore.. now fp=0xfffff680, sp=0xfffff640
+Info: save/restore.. now fp=0xfffff680, sp=0xfffff640
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e4 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff680, sp=0xfffff640
+Info: save/restore.. now fp=0xfffff4c0, sp=0xfffff680
+Info: save/restore.. now fp=0xfffff680, sp=0xfffff640
+Info: save/restore.. now fp=0xfffff640, sp=0xfffff600
+Info: save/restore.. now fp=0xfffff6c0, sp=0xfffff680
+Info: save/restore.. now fp=0xfffff6c0, sp=0xfffff680
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e5 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff6c0, sp=0xfffff680
+Info: save/restore.. now fp=0xfffff500, sp=0xfffff6c0
+Info: save/restore.. now fp=0xfffff6c0, sp=0xfffff680
+Info: save/restore.. now fp=0xfffff680, sp=0xfffff640
+Info: save/restore.. now fp=0xfffff700, sp=0xfffff6c0
+Info: save/restore.. now fp=0xfffff700, sp=0xfffff6c0
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e6 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff700, sp=0xfffff6c0
+Info: save/restore.. now fp=0xfffff540, sp=0xfffff700
+Info: save/restore.. now fp=0xfffff700, sp=0xfffff6c0
+Info: save/restore.. now fp=0xfffff6c0, sp=0xfffff680
+Info: save/restore.. now fp=0xfffff740, sp=0xfffff700
+Info: save/restore.. now fp=0xfffff740, sp=0xfffff700
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e7 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff740, sp=0xfffff700
+Info: save/restore.. now fp=0xfffff580, sp=0xfffff740
+Info: save/restore.. now fp=0xfffff740, sp=0xfffff700
+Info: save/restore.. now fp=0xfffff700, sp=0xfffff6c0
+Info: save/restore.. now fp=0xfffff780, sp=0xfffff740
+Info: save/restore.. now fp=0xfffff780, sp=0xfffff740
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e0 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff780, sp=0xfffff740
+Info: save/restore.. now fp=0xfffff5c0, sp=0xfffff780
+Info: save/restore.. now fp=0xfffff780, sp=0xfffff740
+Info: save/restore.. now fp=0xfffff740, sp=0xfffff700
+Info: save/restore.. now fp=0xfffff7c0, sp=0xfffff780
+Info: save/restore.. now fp=0xfffff7c0, sp=0xfffff780
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e1 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff7c0, sp=0xfffff780
+Info: save/restore.. now fp=0xfffff600, sp=0xfffff7c0
+Info: save/restore.. now fp=0xfffff7c0, sp=0xfffff780
+Info: save/restore.. now fp=0xfffff780, sp=0xfffff740
+Info: save/restore.. now fp=0xfffff800, sp=0xfffff7c0
+Info: save/restore.. now fp=0xfffff800, sp=0xfffff7c0
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e2 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff800, sp=0xfffff7c0
+Info: save/restore.. now fp=0xfffff640, sp=0xfffff800
+Info: save/restore.. now fp=0xfffff800, sp=0xfffff7c0
+Info: save/restore.. now fp=0xfffff7c0, sp=0xfffff780
+Info: save/restore.. now fp=0xfffff840, sp=0xfffff800
+Info: save/restore.. now fp=0xfffff840, sp=0xfffff800
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e3 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff840, sp=0xfffff800
+Info: save/restore.. now fp=0xfffff680, sp=0xfffff840
+Info: save/restore.. now fp=0xfffff840, sp=0xfffff800
+Info: save/restore.. now fp=0xfffff800, sp=0xfffff7c0
+Info: save/restore.. now fp=0xfffff880, sp=0xfffff840
+Info: save/restore.. now fp=0xfffff880, sp=0xfffff840
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e4 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff880, sp=0xfffff840
+Info: save/restore.. now fp=0xfffff6c0, sp=0xfffff880
+Info: save/restore.. now fp=0xfffff880, sp=0xfffff840
+Info: save/restore.. now fp=0xfffff840, sp=0xfffff800
+Info: save/restore.. now fp=0xfffff8c0, sp=0xfffff880
+Info: save/restore.. now fp=0xfffff8c0, sp=0xfffff880
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e5 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff8c0, sp=0xfffff880
+Info: save/restore.. now fp=0xfffff700, sp=0xfffff8c0
+Info: save/restore.. now fp=0xfffff8c0, sp=0xfffff880
+Info: save/restore.. now fp=0xfffff880, sp=0xfffff840
+Info: save/restore.. now fp=0xfffff900, sp=0xfffff8c0
+Info: save/restore.. now fp=0xfffff900, sp=0xfffff8c0
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e6 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff900, sp=0xfffff8c0
+Info: save/restore.. now fp=0xfffff740, sp=0xfffff900
+Info: save/restore.. now fp=0xfffff900, sp=0xfffff8c0
+Info: save/restore.. now fp=0xfffff8c0, sp=0xfffff880
+Info: save/restore.. now fp=0xfffff940, sp=0xfffff900
+Info: save/restore.. now fp=0xfffff940, sp=0xfffff900
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e7 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff940, sp=0xfffff900
+Info: save/restore.. now fp=0xfffff780, sp=0xfffff940
+Info: save/restore.. now fp=0xfffff940, sp=0xfffff900
+Info: save/restore.. now fp=0xfffff900, sp=0xfffff8c0
+Info: save/restore.. now fp=0xfffff980, sp=0xfffff940
+Info: save/restore.. now fp=0xfffff980, sp=0xfffff940
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e0 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff980, sp=0xfffff940
+Info: save/restore.. now fp=0xfffff7c0, sp=0xfffff980
+Info: save/restore.. now fp=0xfffff980, sp=0xfffff940
+Info: save/restore.. now fp=0xfffff940, sp=0xfffff900
+Info: save/restore.. now fp=0xfffff9c0, sp=0xfffff980
+Info: save/restore.. now fp=0xfffff9c0, sp=0xfffff980
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e1 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffff9c0, sp=0xfffff980
+Info: save/restore.. now fp=0xfffff800, sp=0xfffff9c0
+Info: save/restore.. now fp=0xfffff9c0, sp=0xfffff980
+Info: save/restore.. now fp=0xfffff980, sp=0xfffff940
+Info: save/restore.. now fp=0xfffffa00, sp=0xfffff9c0
+Info: save/restore.. now fp=0xfffffa00, sp=0xfffff9c0
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e2 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffa00, sp=0xfffff9c0
+Info: save/restore.. now fp=0xfffff840, sp=0xfffffa00
+Info: save/restore.. now fp=0xfffffa00, sp=0xfffff9c0
+Info: save/restore.. now fp=0xfffff9c0, sp=0xfffff980
+Info: save/restore.. now fp=0xfffffa40, sp=0xfffffa00
+Info: save/restore.. now fp=0xfffffa40, sp=0xfffffa00
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e3 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffa40, sp=0xfffffa00
+Info: save/restore.. now fp=0xfffff880, sp=0xfffffa40
+Info: save/restore.. now fp=0xfffffa40, sp=0xfffffa00
+Info: save/restore.. now fp=0xfffffa00, sp=0xfffff9c0
+Info: save/restore.. now fp=0xfffffa80, sp=0xfffffa40
+Info: save/restore.. now fp=0xfffffa80, sp=0xfffffa40
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e4 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffa80, sp=0xfffffa40
+Info: save/restore.. now fp=0xfffff8c0, sp=0xfffffa80
+Info: save/restore.. now fp=0xfffffa80, sp=0xfffffa40
+Info: save/restore.. now fp=0xfffffa40, sp=0xfffffa00
+Info: save/restore.. now fp=0xfffffac0, sp=0xfffffa80
+Info: save/restore.. now fp=0xfffffac0, sp=0xfffffa80
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e5 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffac0, sp=0xfffffa80
+Info: save/restore.. now fp=0xfffff900, sp=0xfffffac0
+Info: save/restore.. now fp=0xfffffac0, sp=0xfffffa80
+Info: save/restore.. now fp=0xfffffa80, sp=0xfffffa40
+Info: save/restore.. now fp=0xfffffb00, sp=0xfffffac0
+Info: save/restore.. now fp=0xfffffb00, sp=0xfffffac0
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e6 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffb00, sp=0xfffffac0
+Info: save/restore.. now fp=0xfffff940, sp=0xfffffb00
+Info: save/restore.. now fp=0xfffffb00, sp=0xfffffac0
+Info: save/restore.. now fp=0xfffffac0, sp=0xfffffa80
+Info: save/restore.. now fp=0xfffffb40, sp=0xfffffb00
+Info: save/restore.. now fp=0xfffffb40, sp=0xfffffb00
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e7 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffb40, sp=0xfffffb00
+Info: save/restore.. now fp=0xfffff980, sp=0xfffffb40
+Info: save/restore.. now fp=0xfffffb40, sp=0xfffffb00
+Info: save/restore.. now fp=0xfffffb00, sp=0xfffffac0
+Info: save/restore.. now fp=0xfffffb80, sp=0xfffffb40
+Info: save/restore.. now fp=0xfffffb80, sp=0xfffffb40
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e0 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffb80, sp=0xfffffb40
+Info: save/restore.. now fp=0xfffff9c0, sp=0xfffffb80
+Info: save/restore.. now fp=0xfffffb80, sp=0xfffffb40
+Info: save/restore.. now fp=0xfffffb40, sp=0xfffffb00
+Info: save/restore.. now fp=0xfffffbc0, sp=0xfffffb80
+Info: save/restore.. now fp=0xfffffbc0, sp=0xfffffb80
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e1 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffbc0, sp=0xfffffb80
+Info: save/restore.. now fp=0xfffffa00, sp=0xfffffbc0
+Info: save/restore.. now fp=0xfffffbc0, sp=0xfffffb80
+Info: save/restore.. now fp=0xfffffb80, sp=0xfffffb40
+Info: save/restore.. now fp=0xfffffc00, sp=0xfffffbc0
+Info: save/restore.. now fp=0xfffffc00, sp=0xfffffbc0
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e2 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffc00, sp=0xfffffbc0
+Info: save/restore.. now fp=0xfffffa40, sp=0xfffffc00
+Info: save/restore.. now fp=0xfffffc00, sp=0xfffffbc0
+Info: save/restore.. now fp=0xfffffbc0, sp=0xfffffb80
+Info: save/restore.. now fp=0xfffffc40, sp=0xfffffc00
+Info: save/restore.. now fp=0xfffffc40, sp=0xfffffc00
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e3 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffc40, sp=0xfffffc00
+Info: save/restore.. now fp=0xfffffa80, sp=0xfffffc40
+Info: save/restore.. now fp=0xfffffc40, sp=0xfffffc00
+Info: save/restore.. now fp=0xfffffc00, sp=0xfffffbc0
+Info: save/restore.. now fp=0xfffffc80, sp=0xfffffc40
+Info: save/restore.. now fp=0xfffffc80, sp=0xfffffc40
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e4 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffc80, sp=0xfffffc40
+Info: save/restore.. now fp=0xfffffac0, sp=0xfffffc80
+Info: save/restore.. now fp=0xfffffc80, sp=0xfffffc40
+Info: save/restore.. now fp=0xfffffc40, sp=0xfffffc00
+Info: save/restore.. now fp=0xfffffcc0, sp=0xfffffc80
+Info: save/restore.. now fp=0xfffffcc0, sp=0xfffffc80
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e5 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffcc0, sp=0xfffffc80
+Info: save/restore.. now fp=0xfffffb00, sp=0xfffffcc0
+Info: save/restore.. now fp=0xfffffcc0, sp=0xfffffc80
+Info: save/restore.. now fp=0xfffffc80, sp=0xfffffc40
+Info: save/restore.. now fp=0xfffffd00, sp=0xfffffcc0
+Info: save/restore.. now fp=0xfffffd00, sp=0xfffffcc0
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e6 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffd00, sp=0xfffffcc0
+Info: save/restore.. now fp=0xfffffb40, sp=0xfffffd00
+Info: save/restore.. now fp=0xfffffd00, sp=0xfffffcc0
+Info: save/restore.. now fp=0xfffffcc0, sp=0xfffffc80
+Info: save/restore.. now fp=0xfffffd40, sp=0xfffffd00
+Info: save/restore.. now fp=0xfffffd40, sp=0xfffffd00
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e7 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffd40, sp=0xfffffd00
+Info: save/restore.. now fp=0xfffffb80, sp=0xfffffd40
+Info: save/restore.. now fp=0xfffffd40, sp=0xfffffd00
+Info: save/restore.. now fp=0xfffffd00, sp=0xfffffcc0
+Info: save/restore.. now fp=0xfffffd80, sp=0xfffffd40
+Info: save/restore.. now fp=0xfffffd80, sp=0xfffffd40
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e0 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffd80, sp=0xfffffd40
+Info: save/restore.. now fp=0xfffffbc0, sp=0xfffffd80
+Info: save/restore.. now fp=0xfffffd80, sp=0xfffffd40
+Info: save/restore.. now fp=0xfffffd40, sp=0xfffffd00
+Info: save/restore.. now fp=0xfffffdc0, sp=0xfffffd80
+Info: save/restore.. now fp=0xfffffdc0, sp=0xfffffd80
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e1 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffdc0, sp=0xfffffd80
+Info: save/restore.. now fp=0xfffffc00, sp=0xfffffdc0
+Info: save/restore.. now fp=0xfffffdc0, sp=0xfffffd80
+Info: save/restore.. now fp=0xfffffd80, sp=0xfffffd40
+Info: save/restore.. now fp=0xfffffe00, sp=0xfffffdc0
+Info: save/restore.. now fp=0xfffffe00, sp=0xfffffdc0
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e2 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffe00, sp=0xfffffdc0
+Info: save/restore.. now fp=0xfffffc40, sp=0xfffffe00
+Info: save/restore.. now fp=0xfffffe00, sp=0xfffffdc0
+Info: save/restore.. now fp=0xfffffdc0, sp=0xfffffd80
+Info: save/restore.. now fp=0xfffffe40, sp=0xfffffe00
+Info: save/restore.. now fp=0xfffffe40, sp=0xfffffe00
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e3 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffe40, sp=0xfffffe00
+Info: save/restore.. now fp=0xfffffc80, sp=0xfffffe40
+Info: save/restore.. now fp=0xfffffe40, sp=0xfffffe00
+Info: save/restore.. now fp=0xfffffe00, sp=0xfffffdc0
+Info: save/restore.. now fp=0xfffffe80, sp=0xfffffe40
+Info: save/restore.. now fp=0xfffffe80, sp=0xfffffe40
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e4 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffe80, sp=0xfffffe40
+Info: save/restore.. now fp=0xfffffcc0, sp=0xfffffe80
+Info: save/restore.. now fp=0xfffffe80, sp=0xfffffe40
+Info: save/restore.. now fp=0xfffffe40, sp=0xfffffe00
+Info: save/restore.. now fp=0xfffffec0, sp=0xfffffe80
+Info: save/restore.. now fp=0xfffffec0, sp=0xfffffe80
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x00003038 psr=0x004010e5 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xfffffec0, sp=0xfffffe80
+Info: save/restore.. now fp=0xfffffd00, sp=0xfffffec0
+Info: save/restore.. now fp=0xfffffec0, sp=0xfffffe80
+Info: save/restore.. now fp=0xfffffe80, sp=0xfffffe40
+Info: save/restore.. now fp=0xffffff00, sp=0xfffffec0
+Info: save/restore.. now fp=0xffffff00, sp=0xfffffec0
+
+TRAP (cpu-id=0): pc=0x00003040 npc=0x0000300c psr=0x004010e6 tv=0x00008001	WINDOW_UNDERFLOW
+Info: save/restore.. now fp=0xffffff00, sp=0xfffffec0
+Info: save/restore.. now fp=0xfffffd40, sp=0xffffff00
+Info: save/restore.. now fp=0xffffff00, sp=0xfffffec0
+Info: save/restore.. now fp=0xfffffec0, sp=0xfffffe80
+Info: save/restore.. now fp=0xfffffff8, sp=0xffffff00
+
+TRAP (cpu-id=0): pc=0x00003010 npc=0x00003014 psr=0x004010e7 tv=0x00800001	TRAP_INSTR_TRAP (ta 0)
+
+
+TRAP (cpu-id=0): pc=0x00002800 npc=0x00002804 psr=0x004010c6 tv=0x00800001	TRAP_INSTR_TRAP (ta 0)
+
+Processor 0 entered ERROR MODE at PC=0x2800
+ Program exited with a trap type = 0x0
+Statistics for CPU 0:
+    number-of-instructions-executed = 3904
+    number-of-traps  = 119
+    cycle-count estimate = 352308
+Info: for CPU 0: 4kB pages accessed are (starting virtual-address of the page is shown):
+     0x00000000
+     0x00001000
+     0x00002000
+     0x00003000
+     0xfffff000
+Total time taken by testbench: 1 secs
+Statistics of RLUT for cpuid=0:
+Statistics for ICACHE cpuid=0
+    number-of-accesses=4022
+    number-of-misses=4022
+Statistics for DCACHE cpuid=0
+    number-of-accesses=928
+    number-of-misses=928
+    number-of-write_misses=464
+    number-of-read_misses=464
+
+Mmu statistics for cpuid=0: MMU ENABLED = 0
+	TLB size (number of entries) = 64
+	Accesses with Mmu bypassed or disabled 	= 5414
+	Mmu_probe_requests  	= 0
+	Mmu_flush_requests  	= 0
+	Mmu_register_reads   	= 0
+	Mmu_register_writes 	= 0
+	Mmu_translated_accesses = 0
+	Mmu_TLB_hits            = 0
+
+Mmu Register values :
+	Control register 	= 0x0
+	Context table ptr 	= 0x0
+	Context register   	= 0x0
+	FSR		   	= 0x0
+	FAR		 	= 0x0

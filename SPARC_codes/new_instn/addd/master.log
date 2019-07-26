@@ -1,0 +1,22 @@
+   Searching sparc-buildroot-linux-uclibc-as     ... /home/gaurip/builds/buildroot-2014.08/output/host/usr/bin/sparc-buildroot-linux-uclibc-as
+   Searching sparc-buildroot-linux-uclibc-ld     ... /home/gaurip/builds/buildroot-2014.08/output/host/usr/bin/sparc-buildroot-linux-uclibc-ld
+   Searching sparc-buildroot-linux-uclibc-readelf ... /home/gaurip/builds/buildroot-2014.08/output/host/usr/bin/sparc-buildroot-linux-uclibc-readelf
+   Searching sparc-buildroot-linux-uclibc-objdump ... /home/gaurip/builds/buildroot-2014.08/output/host/usr/bin/sparc-buildroot-linux-uclibc-objdump
+   Executing: sparc-buildroot-linux-uclibc-as -Av8 init.s -o ./sparc-obj/init.o ... Looks OK.
+   Executing: sparc-buildroot-linux-uclibc-as -Av8 /usr/local/ajit_release/tools/ajit_access_routines/asm/trap_handlers.s -o ./sparc-obj/trap_handlers.o ... Looks OK.
+   Executing: sparc-buildroot-linux-uclibc-as -Av8 addd.s -o ./sparc-obj/addd.o ... Looks OK.
+   Executing: sparc-buildroot-linux-uclibc-ld -e main -T LinkerScript.lnk  ./sparc-obj/init.o ./sparc-obj/trap_handlers.o ./sparc-obj/addd.o -o addd.elf ... ./sparc-obj/init.o: In function `start':
+(.text+0x24): undefined reference to `page_table_setup'
+./sparc-obj/init.o: In function `start':
+(.text+0x2c): undefined reference to `set_context_table_pointer'
+ERROR.
+   Executing: sparc-buildroot-linux-uclibc-readelf  --hex-dump=.text --hex-dump=.rodata --hex-dump=.rodata.str1.8 --hex-dump=.data --hex-dump=.rodata.cst8 --hex-dump=.bss  ./addd.elf | tr -cd '	
+ -~' | grep 0x > ./addd.hex
+readelf: Error: './addd.elf': No such file
+ERROR.
+   Executing:  sparc-buildroot-linux-uclibc-readelf  --symbols ./addd.elf  > ./addd.vars
+readelf: Error: './addd.elf': No such file
+ERROR.
+   Executing:  sparc-buildroot-linux-uclibc-objdump -d  .//addd.elf > ./addd.objdump
+sparc-buildroot-linux-uclibc-objdump: './/addd.elf': No such file
+ERROR.

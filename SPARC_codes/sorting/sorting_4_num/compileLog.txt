@@ -1,0 +1,108 @@
+Info: context=0x0, vaddr=0x0, paddr=0x0, level=0x1, cacheable=0x1, acc=0x3
+Info: new pdte: id=0, context=0, level=1, index=0x0, is_ptd=0, ppnr=0x0, cacheable=0x1, acc=0x3
+Info: new pdte: id=1, context=0, level=0, index=0x0, is_ptd=1, ppnr=0x0, cacheable=0x1, acc=0x3
+Info: added child:  0 (level=1)-> 1 (level=0)
+Info: context=0x0, vaddr=0x40000000, paddr=0x80000, level=0x2, cacheable=0x1, acc=0x3
+Info: new pdte: id=2, context=0, level=2, index=0x0, is_ptd=0, ppnr=0x80000, cacheable=0x1, acc=0x3
+Info: new pdte: id=3, context=0, level=1, index=0x40, is_ptd=1, ppnr=0x80000, cacheable=0x1, acc=0x3
+Info: added sibling: 3 (level 1) to 0 (level 1) 
+Info: added child:  2 (level=2)-> 3 (level=1)
+Info: context=0x0, vaddr=0xfffff000, paddr=0xff000, level=0x3, cacheable=0x1, acc=0x3
+Info: new pdte: id=4, context=0, level=3, index=0x3f, is_ptd=0, ppnr=0xff000, cacheable=0x1, acc=0x3
+Info: new pdte: id=5, context=0, level=1, index=0xff, is_ptd=1, ppnr=0xff000, cacheable=0x1, acc=0x3
+Info: added sibling: 5 (level 1) to 3 (level 1) 
+Info: new pdte: id=6, context=0, level=2, index=0x3f, is_ptd=1, ppnr=0xff000, cacheable=0x1, acc=0x3
+Info: added child:  6 (level=2)-> 5 (level=1)
+Info: added child:  4 (level=3)-> 6 (level=2)
+Level-2 page-table starting at offset 0x0
+Level-3 page-table starting at offset 0x100
+Level-2 page-table starting at offset 0x200
+Level-1 page-table starting at offset 0x400
+Level-0 page-table starting at offset 0x800
+Info: table memory used=0xc00
+ PTD: context=0, index=0, level=0, child_p_addr=0x400, p_addr=0x800
+   PTE: context=0, index=0, level=1,  ppnr=0x0, p_addr=0x400, cacheable=0x1, acc=0x3
+   PTD: context=0, index=64, level=1, child_p_addr=0x0, p_addr=0x500
+     PTE: context=0, index=0, level=2,  ppnr=0x80000, p_addr=0x0, cacheable=0x1, acc=0x3
+   PTD: context=0, index=255, level=1, child_p_addr=0x2fc, p_addr=0x7fc
+     PTD: context=0, index=63, level=2, child_p_addr=0x1fc, p_addr=0x2fc
+       PTE: context=0, index=63, level=3,  ppnr=0xff000, p_addr=0x1fc, cacheable=0x1, acc=0x3
+Info:dump_asm: entering id=1
+Info:dump_asm: entering id=0
+Info:dump_asm: entering id=3
+Info:dump_asm: entering id=2
+Info:dump_asm: entering id=5
+Info:dump_asm: entering id=6
+Info:dump_asm: entering id=4
+readelf: Warning: Section '.bss' was not dumped because it does not exist!
+readelf: Warning: Section '.rodata.cst8' was not dumped because it does not exist!
+readelf: Warning: Section '.rodata.str1.8' was not dumped because it does not exist!
+Info: compile with -g.
+Info: added include-directory = /usr/include.
+Info: added include-directory = ./.
+Info: added assembly-file = init.s.
+Info: added assembly-file = setup_page_tables.s.
+Info: added assembly-file = /usr/local/ajit_release/tools/ajit_access_routines/asm/trap_handlers.s.
+Info: added include-directory = /usr/local/ajit_release/tools/ajit_access_routines/include.
+Info: added src-directory = /usr/local/ajit_release/tools/ajit_access_routines/src.
+Info: added src-directory = /usr/local/ajit_release/tools/minimal_printf_timer/src.
+Info: added include-directory = /usr/local/ajit_release/tools/minimal_printf_timer/include.
+Info: added assembly-file = sorting.s.
+Info: elf-file to be produced  = sorting.elf.
+Info: var-dump-file to be produced  = sorting.vars.
+Info: hex-dump-file to be produced  = sorting.hex.
+Info: memory-map-file to be produced  = sorting.mmap.
+Info: object-dump-file to be produced  = sorting.objdump.
+Info: linker_script_file  = LinkerScript.lnk.
+Info: added define_string = AJIT.
+Info: Executing:
+	rm -rf .//sparc-assembly
+Info: Executing:
+	mkdir .//sparc-assembly
+Info: Executing:
+	rm -rf .//sparc-obj
+Info: Executing:
+	mkdir .//sparc-obj
+Info: Executing:
+	sparc-linux-as   -Av8  init.s -o .//sparc-obj/init.o
+Info: Executing:
+	sparc-linux-as   -Av8  setup_page_tables.s -o .//sparc-obj/setup_page_tables.o
+Info: Executing:
+	sparc-linux-as   -Av8  /usr/local/ajit_release/tools/ajit_access_routines/asm/trap_handlers.s -o .//sparc-obj/trap_handlers.o
+Info: Executing:
+	sparc-linux-as   -Av8  sorting.s -o .//sparc-obj/sorting.o
+Info: Executing:
+	sparc-linux-gcc  -c  -S -Wall -Werror -m32 -mcpu=v8 -nostdlib -ffreestanding    -g  -I /usr/include  -I ./  -I /usr/local/ajit_release/tools/ajit_access_routines/include  -I /usr/local/ajit_release/tools/minimal_printf_timer/include  -D AJIT  /usr/local/ajit_release/tools/ajit_access_routines/src/ajit_access_routines.c -o .//sparc-assembly/ajit_access_routines.s
+Info: Executing:
+	sparc-linux-gcc  -c  -S -Wall -Werror -m32 -mcpu=v8 -nostdlib -ffreestanding    -g  -I /usr/include  -I ./  -I /usr/local/ajit_release/tools/ajit_access_routines/include  -I /usr/local/ajit_release/tools/minimal_printf_timer/include  -D AJIT  /usr/local/ajit_release/tools/minimal_printf_timer/src/cvt.c -o .//sparc-assembly/cvt.s
+Info: Executing:
+	sparc-linux-gcc  -c  -S -Wall -Werror -m32 -mcpu=v8 -nostdlib -ffreestanding    -g  -I /usr/include  -I ./  -I /usr/local/ajit_release/tools/ajit_access_routines/include  -I /usr/local/ajit_release/tools/minimal_printf_timer/include  -D AJIT  /usr/local/ajit_release/tools/minimal_printf_timer/src/core_portme.c -o .//sparc-assembly/core_portme.s
+Info: Executing:
+	sparc-linux-gcc  -c  -S -Wall -Werror -m32 -mcpu=v8 -nostdlib -ffreestanding    -g  -I /usr/include  -I ./  -I /usr/local/ajit_release/tools/ajit_access_routines/include  -I /usr/local/ajit_release/tools/minimal_printf_timer/include  -D AJIT  /usr/local/ajit_release/tools/minimal_printf_timer/src/ee_printf.c -o .//sparc-assembly/ee_printf.s
+Info: Executing:
+	sparc-linux-as   -Av8 .//sparc-assembly/ee_printf.s  -o .//sparc-obj/ee_printf.o
+Info: Executing:
+	sparc-linux-as   -Av8 .//sparc-assembly/cvt.s  -o .//sparc-obj/cvt.o
+Info: Executing:
+	sparc-linux-as   -Av8 .//sparc-assembly/ajit_access_routines.s  -o .//sparc-obj/ajit_access_routines.o
+Info: Executing:
+	sparc-linux-as   -Av8 .//sparc-assembly/core_portme.s  -o .//sparc-obj/core_portme.o
+Info: Executing:
+	sparc-linux-ld  -e main -T LinkerScript.lnk .//sparc-obj/init.o  .//sparc-obj/setup_page_tables.o  .//sparc-obj/trap_handlers.o  .//sparc-obj/sorting.o  .//sparc-obj/ee_printf.o  .//sparc-obj/cvt.o  .//sparc-obj/ajit_access_routines.o  .//sparc-obj/core_portme.o   -o .//sorting.elf
+Info: Executing:
+	sparc-linux-readelf  --hex-dump=.text --hex-dump=.rodata --hex-dump=.rodata.str1.8 --hex-dump=.data --hex-dump=.rodata.cst8 --hex-dump=.bss  .//sorting.elf | tr -cd '\11\12\15\40-\176' | grep 0x > .//sorting.hex
+Info: Executing:
+	sparc-linux-readelf  --symbols .//sorting.elf  > .//sorting.vars
+Info: Executing:
+	Info: Generating memory map .//sorting.mmap
+Info: Executing:
+	sparc-linux-objdump -d  .//sorting.elf > .//sorting.objdump
+\nREADELF\n
+readelf: Warning: Section '.bss' was not dumped because it does not exist!
+Info:remap: vpn=0x0, ppn=00, level=0x1
+Info: new RemapStruct: level=0x1, vpn=0x0, ppn=0x0
+Info:remap: vpn=0x40000000, ppn=080000, level=0x2
+Info: new RemapStruct: level=0x2, vpn=0x40000000, ppn=0x80000
+Info:remap: vpn=0xfffff000, ppn=0ff000, level=0x3
+Info: new RemapStruct: level=0x3, vpn=0xfffff000, ppn=0xff000
+Info:remap: re-mapped 27896 bytes

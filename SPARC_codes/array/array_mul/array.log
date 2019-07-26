@@ -1,0 +1,2 @@
+1. correct :	i0,	id = 24, 	expected = 0x78,  		actual = 0x78 (mask=0xffffffff) (cpu-id=0)
+2. correct :	g3,	id = 3, 	expected = 0x78,  		actual = 0x78 (mask=0xffffffff) (cpu-id=0)

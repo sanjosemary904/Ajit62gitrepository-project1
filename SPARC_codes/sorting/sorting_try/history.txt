@@ -1,0 +1,1000 @@
+  321  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  322  vim sorting.log 
+  323  vim sorting.results
+  324  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  325  vim sorting.log 
+  326  vim sorting.s
+  327  ./compile_for_ajit.sh
+  328  ajit_C_system_model -m sorting.mmap.remapped 
+  329  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  330  vim sorting.log 
+  331  vim sorting.s
+  332  ./compile_for_ajit.sh
+  333  ajit_C_system_model -m sorting.mmap.remapped 
+  334  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  335  vim sorting.log 
+  336  vim sorting.s
+  337  ./compile_for_ajit.sh
+  338  ajit_C_system_model -m sorting.mmap.remapped 
+  339  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  340  vim sorting.log 
+  341  vim sorting.s
+  342  ./compile_for_ajit.sh
+  343  ajit_C_system_model -m sorting.mmap.remapped 
+  344  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  345  vim sorting.log 
+  346  vim sorting.s
+  347  ./compile_for_ajit.sh
+  348  vim sorting.s
+  349  ./compile_for_ajit.sh
+  350  vim sorting.s
+  351  ./compile_for_ajit.sh
+  352  ajit_C_system_model -m sorting.mmap.remapped 
+  353  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  354  vim sorting.log 
+  355  vim sorting.s
+  356  ./compile_for_ajit.sh
+  357  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  358  vim sorting.log 
+  359  vim sorting.s
+  360  ./compile_for_ajit.sh
+  361  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  362  vim sorting.log 
+  363  vim sorting.s
+  364  ./compile_for_ajit.sh
+  365  ajit_C_system_model -m sorting.mmap.remapped 
+  366  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  367  vim sorting.log 
+  368  vim sorting.s
+  369  ./compile_for_ajit.sh
+  370  ajit_C_system_model -m sorting.mmap.remapped 
+  371  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  372  vim sorting.log 
+  373  vim sorting.s
+  374  ./compile_for_ajit.sh
+  375  ajit_C_system_model -m sorting.mmap.remapped 
+  376  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  377  vim sorting.log 
+  378  vim sorting.s
+  379  ./compile_for_ajit.sh
+  380  ajit_C_system_model -m sorting.mmap.remapped 
+  381  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  382  vim sorting.log 
+  383  vim sorting.s
+  384  ./compile_for_ajit.sh
+  385  ajit_C_system_model -m sorting.mmap.remapped 
+  386  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  387  vim sorting.log 
+  388  vim sorting.s
+  389  ./compile_for_ajit.sh
+  390  ajit_C_system_model -m sorting.mmap.remapped 
+  391  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  392  vim sorting.log 
+  393  vim sorting.s
+  394  ./compile_for_ajit.sh
+  395  ajit_C_system_model -m sorting.mmap.remapped 
+  396  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  397  vim sorting.log 
+  398  vim sorting.s
+  399  ./compile_for_ajit.sh
+  400  ajit_C_system_model -m sorting.mmap.remapped 
+  401  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  402  vim sorting.log 
+  403  vim sorting.s
+  404  ./compile_for_ajit.sh
+  405  vim sorting.s
+  406  ./compile_for_ajit.sh
+  407  vim sorting.s
+  408  ./compile_for_ajit.sh
+  409  ajit_C_system_model -m sorting.mmap.remapped 
+  410  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  411  vim sorting.log 
+  412  vim sorting.s
+  413  ./compile_for_ajit.sh
+  414  ajit_C_system_model -m sorting.mmap.remapped 
+  415  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  416  vim sorting.log 
+  417  vim sorting.s
+  418  ./compile_for_ajit.sh
+  419  ajit_C_system_model -m sorting.mmap.remapped 
+  420  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  421  vim sorting.log 
+  422  vim sorting.s
+  423  ./compile_for_ajit.sh
+  424  vim sorting.s
+  425  ./compile_for_ajit.sh
+  426  ajit_C_system_model -m sorting.mmap.remapped 
+  427  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  428  vim sorting.log 
+  429  vim sorting.s
+  430  ./compile_for_ajit.sh
+  431  ajit_C_system_model -m sorting.mmap.remapped 
+  432  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  433  vim sorting.log 
+  434  vim sorting.s
+  435  ./compile_for_ajit.sh
+  436  ajit_C_system_model -m sorting.mmap.remapped 
+  437  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  438  vim sorting.log 
+  439  vim sorting.s
+  440  ./compile_for_ajit.sh
+  441  ajit_C_system_model -m sorting.mmap.remapped 
+  442  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  443  vim sorting.log 
+  444  vim sorting.s
+  445  ./compile_for_ajit.sh
+  446  ajit_C_system_model -m sorting.mmap.remapped 
+  447  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  448  vim sorting.log 
+  449  vim sorting.s
+  450  ./compile_for_ajit.sh
+  451  vim sorting.s
+  452  ./compile_for_ajit.sh
+  453  vim sorting.s
+  454  ./compile_for_ajit.sh
+  455  vim sorting.s
+  456  ./compile_for_ajit.sh
+  457  ls
+  458  vim LinkerScript.lnk 
+  459  cd ../
+  460  cd examples/addition/
+  461  ls
+  462  ./compile_for_ajit.sh
+  463  cd ../../
+  464  ls
+  465  cd example
+  466  ls
+  467  vim sorting.s
+  468  ./compile_for_ajit.sh
+  469  vim sorting.s
+  470  ./compile_for_ajit.sh
+  471  ajit_C_system_model -m sorting.mmap.remapped 
+  472  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  473  vim sorting.log 
+  474  vim sorting.s
+  475  ./compile_for_ajit.sh
+  476  ajit_C_system_model -m sorting.mmap.remapped 
+  477  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  478  vim sorting.log 
+  479  vim sorting.s
+  480  ./compile_for_ajit.sh
+  481  ajit_C_system_model -m sorting.mmap.remapped 
+  482  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  483  vim sorting.log 
+  484  vim sorting.s
+  485  ./compile_for_ajit.sh
+  486  ajit_C_system_model -m sorting.mmap.remapped 
+  487  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  488  vim sorting.log 
+  489  vim sorting.s
+  490  ./compile_for_ajit.sh
+  491  ajit_C_system_model -m sorting.mmap.remapped 
+  492  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  493  vim sorting.log 
+  494  vim sorting.s
+  495  ./compile_for_ajit.sh
+  496  ajit_C_system_model -m sorting.mmap.remapped 
+  497  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  498  vim sorting.log 
+  499  vim sorting.s
+  500  ./compile_for_ajit.sh
+  501  ajit_C_system_model -m sorting.mmap.remapped 
+  502  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  503  vim sorting.log 
+  504  vim sorting.s
+  505  cd example
+  506  vim sorting.s
+  507  ./compile_for_ajit.sh
+  508  vim sorting.s
+  509  ./compile_for_ajit.sh
+  510  ajit_C_system_model -m sorting.mmap.remapped 
+  511  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  512  vim sorting.log 
+  513  vim sorting.s
+  514  ./compile_for_ajit.sh
+  515  ajit_C_system_model -m sorting.mmap.remapped 
+  516  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  517  vim sorting.log 
+  518  vim sorting.s
+  519  ./compile_for_ajit.sh
+  520  vim sorting.s
+  521  ./compile_for_ajit.sh
+  522  vim sorting.s
+  523  ./compile_for_ajit.sh
+  524  vim sorting.s
+  525  ./compile_for_ajit.sh
+  526  vim sorting.s
+  527  ./compile_for_ajit.sh
+  528  vim sorting.s
+  529  ./compile_for_ajit.sh
+  530  vim sorting.s
+  531  cd  example
+  532  vim sorting.s
+  533  ./compile_for_ajit.sh
+  534  vim sorting.s
+  535  ./compile_for_ajit.sh
+  536  ajit_C_system_model -m sorting.mmap.remapped 
+  537  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  538  vim sorting.log 
+  539  vim sorting.s
+  540  vim sorting.log 
+  541  vim sorting.s
+  542  ./compile_for_ajit.sh
+  543  vim sorting.s
+  544  ./compile_for_ajit.sh
+  545  ajit_C_system_model -m sorting.mmap.remapped 
+  546  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  547  vim sorting.log 
+  548  vim sorting.results
+  549  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results
+  550  vim sorting.log 
+  551  vim sorting.s
+  552  vim sorting.log 
+  553  vim sorting.s
+  554  cd example
+  555  vim sorting.s
+  556  ./compile_for_ajit.sh
+  557  ajit_C_system_model -m sorting.mmap.remapped 
+  558  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  559  vim sorting.log
+  560  vim sorting.s
+  561  ./compile_for_ajit.sh
+  562  ajit_C_system_model -m sorting.mmap.remapped 
+  563  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  564  vim sorting.log
+  565  vim sorting.s
+  566  ./compile_for_ajit.sh
+  567  ajit_C_system_model -m sorting.mmap.remapped 
+  568  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  569  vim sorting.log
+  570  vim sorting.s
+  571  ./compile_for_ajit.sh
+  572  ajit_C_system_model -m sorting.mmap.remapped 
+  573  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  574  vim sorting.log
+  575  vim sorting.s
+  576  ./compile_for_ajit.sh
+  577  ajit_C_system_model -m sorting.mmap.remapped 
+  578  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  579  vim sorting.log
+  580  vim sorting.s
+  581  ./compile_for_ajit.sh
+  582  ajit_C_system_model -m sorting.mmap.remapped 
+  583  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  584  vim sorting.log
+  585  vim sorting.s
+  586  ./compile_for_ajit.sh
+  587  ajit_C_system_model -m sorting.mmap.remapped 
+  588  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  589  vim sorting.log
+  590  vim sorting.results
+  591  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  592  vim sorting.log
+  593  vim sorting.s
+  594  ./compile_for_ajit.sh
+  595  ajit_C_system_model -m sorting.mmap.remapped 
+  596  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  597  vim sorting.log
+  598  vim sorting.s
+  599  ./compile_for_ajit.sh
+  600  ajit_C_system_model -m sorting.mmap.remapped 
+  601  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  602  vim sorting.log
+  603  vim sorting.s
+  604  ./compile_for_ajit.sh
+  605  ajit_C_system_model -m sorting.mmap.remapped 
+  606  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  607  vim sorting.log
+  608  vim sorting.s
+  609  ./compile_for_ajit.sh
+  610  ajit_C_system_model -m sorting.mmap.remapped 
+  611  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  612  vim sorting.log
+  613  vim sorting.s
+  614  ./compile_for_ajit.sh
+  615  ajit_C_system_model -m sorting.mmap.remapped 
+  616  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  617  vim sorting.log
+  618  vim sorting.s
+  619  ./compile_for_ajit.sh
+  620  ajit_C_system_model -m sorting.mmap.remapped 
+  621  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  622  vim sorting.log
+  623  vim sorting.s
+  624  ./compile_for_ajit.sh
+  625  ajit_C_system_model -m sorting.mmap.remapped 
+  626  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  627  vim sorting.log
+  628  vim sorting.s
+  629  ./compile_for_ajit.sh
+  630  ajit_C_system_model -m sorting.mmap.remapped 
+  631  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  632  vim sorting.log
+  633  vim sorting.s
+  634  ./compile_for_ajit.sh
+  635  ajit_C_system_model -m sorting.mmap.remapped 
+  636  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  637  vim sorting.log
+  638  vim sorting.s
+  639  ./compile_for_ajit.sh
+  640  ajit_C_system_model -m sorting.mmap.remapped 
+  641  ./compile_for_ajit.sh
+  642  ./compile_for_ajit.sh |& tee compileLog.txt
+  643  gedit compileLog.txt 
+  644  vim compileLog.txt 
+  645  vim sorting.s
+  646  ./compile_for_ajit.sh |& tee compileLog.txt
+  647  ajit_C_system_model -m sorting.mmap.remapped 
+  648  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  649  vim sorting.s
+  650  ./compile_for_ajit.sh |& tee compileLog.txt
+  651  vim sorting.s
+  652  ./compile_for_ajit.sh |& tee compileLog.txt
+  653  ajit_C_system_model -m sorting.mmap.remapped 
+  654  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  655  vim sorting.log
+  656  vim sorting.s
+  657  ./compile_for_ajit.sh |& tee compileLog.txt
+  658  ajit_C_system_model -m sorting.mmap.remapped 
+  659  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  660  vim sorting.log
+  661  vim sorting.s
+  662  ./compile_for_ajit.sh |& tee compileLog.txt
+  663  ajit_C_system_model -m sorting.mmap.remapped 
+  664  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  665  vim sorting.log
+  666  vim sorting.s
+  667  ./compile_for_ajit.sh |& tee compileLog.txt
+  668  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  669  ./compile_for_ajit.sh |& tee compileLog.txt
+  670  ajit_C_system_model -m sorting.mmap.remapped 
+  671  vim sorting.s
+  672  ./compile_for_ajit.sh |& tee compileLog.txt
+  673  ajit_C_system_model -m sorting.mmap.remapped 
+  674  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  675  vim sorting.log
+  676  cd example
+  677  ./compile_for_ajit.sh |& tee compileLog.txt
+  678  ajit_C_system_model -m sorting.mmap.remapped 
+  679  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  680  vim sorting.log
+  681  vim sorting.s
+  682  ./compile_for_ajit.sh |& tee compileLog.txt
+  683  gedit compile
+  684  gedit compileLog.txt &
+  685  ajit_C_system_model -m sorting.mmap.remapped 
+  686  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  687  vim sorting.log
+  688  vim sorting.s
+  689  vim sorting.results
+  690  vim sorting.s
+  691  ./compile_for_ajit.sh |& tee compileLog.txt
+  692  ajit_C_system_model -m sorting.mmap.remapped 
+  693  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  694  vim sorting.log
+  695  vim sorting.s
+  696  ./compile_for_ajit.sh |& tee compileLog.txt
+  697  ajit_C_system_model -m sorting.mmap.remapped 
+  698  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  699  vim sorting.log
+  700  vim sorting.s
+  701  cd example
+  702  vim sorting.s
+  703  ./compile_for_ajit.sh |& tee compileLog.txt
+  704  ajit_C_system_model -m sorting.mmap.remapped 
+  705  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  706  vim sorting.log
+  707  vim sorting.s
+  708  ./compile_for_ajit.sh |& tee compileLog.txt
+  709  ajit_C_system_model -m sorting.mmap.remapped 
+  710  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  711  vim sorting.log
+  712  vim sorting.s
+  713  ./compile_for_ajit.sh |& tee compileLog.txt
+  714  ajit_C_system_model -m sorting.mmap.remapped 
+  715  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  716  vim sorting.log
+  717  vim sorting.s
+  718  ./compile_for_ajit.sh |& tee compileLog.txt
+  719  ajit_C_system_model -m sorting.mmap.remapped 
+  720  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  721  vim sorting.log
+  722  vim sorting.s
+  723  ./compile_for_ajit.sh |& tee compileLog.txt
+  724  ajit_C_system_model -m sorting.mmap.remapped 
+  725  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  726  vim sorting.log
+  727  vim sorting.s
+  728  ./compile_for_ajit.sh |& tee compileLog.txt
+  729  ajit_C_system_model -m sorting.mmap.remapped 
+  730  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  731  vim sorting.log
+  732  vim sorting.s
+  733  ./compile_for_ajit.sh |& tee compileLog.txt
+  734  ajit_C_system_model -m sorting.mmap.remapped 
+  735  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  736  vim sorting.log
+  737  vim sorting.s
+  738  ./compile_for_ajit.sh |& tee compileLog.txt
+  739  ajit_C_system_model -m sorting.mmap.remapped 
+  740  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  741  vim sorting.log
+  742  vim sorting.s
+  743  ./compile_for_ajit.sh |& tee compileLog.txt
+  744  ajit_C_system_model -m sorting.mmap.remapped 
+  745  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  746  vim sorting.log
+  747  vim sorting.s
+  748  ./compile_for_ajit.sh |& tee compileLog.txt
+  749  ajit_C_system_model -m sorting.mmap.remapped 
+  750  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  751  vim sorting.log
+  752  vim sorting.s
+  753  ./compile_for_ajit.sh |& tee compileLog.txt
+  754  ajit_C_system_model -m sorting.mmap.remapped 
+  755  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  756  vim sorting.log
+  757  vim sorting.s
+  758  ./compile_for_ajit.sh |& tee compileLog.txt
+  759  ajit_C_system_model -m sorting.mmap.remapped 
+  760  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  761  vim sorting.log
+  762  vim sorting.s
+  763  ./compile_for_ajit.sh |& tee compileLog.txt
+  764  ajit_C_system_model -m sorting.mmap.remapped 
+  765  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  766  vim sorting.log
+  767  vim sorting.s
+  768  ./compile_for_ajit.sh |& tee compileLog.txt
+  769  ajit_C_system_model -m sorting.mmap.remapped 
+  770  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  771  vim sorting.log
+  772  vim sorting.s
+  773  ./compile_for_ajit.sh |& tee compileLog.txt
+  774  ajit_C_system_model -m sorting.mmap.remapped 
+  775  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  776  vim sorting.log
+  777  vim sorting.s
+  778  ./compile_for_ajit.sh |& tee compileLog.txt
+  779  ajit_C_system_model -m sorting.mmap.remapped 
+  780  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  781  vim sorting.log
+  782  vim sorting.s
+  783  ./compile_for_ajit.sh |& tee compileLog.txt
+  784  ajit_C_system_model -m sorting.mmap.remapped 
+  785  ./compile_for_ajit.sh |& tee compileLog.txt
+  786  gedit compileLog.txt &
+  787  vim sorting.s
+  788  ./compile_for_ajit.sh |& tee compileLog.txt
+  789  ajit_C_system_model -m sorting.mmap.remapped 
+  790  vim sorting.s
+  791  ./compile_for_ajit.sh |& tee compileLog.txt
+  792  ajit_C_system_model -m sorting.mmap.remapped 
+  793  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  794  vim sorting.log 
+  795  vim sorting.s
+  796  ./compile_for_ajit.sh |& tee compileLog.txt
+  797  ajit_C_system_model -m sorting.mmap.remapped 
+  798  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  799  vim sorting.log 
+  800  vim sorting.s
+  801  ./compile_for_ajit.sh |& tee compileLog.txt
+  802  ajit_C_system_model -m sorting.mmap.remapped 
+  803  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  804  vim sorting.log 
+  805  vim sorting.s
+  806  ./compile_for_ajit.sh |& tee compileLog.txt
+  807  ajit_C_system_model -m sorting.mmap.remapped 
+  808  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  809  vim sorting.log 
+  810  vim sorting.s
+  811  ./compile_for_ajit.sh |& tee compileLog.txt
+  812  ajit_C_system_model -m sorting.mmap.remapped 
+  813  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+  814  vim sorting.log 
+  815  vim sorting.s
+  816  cd /usr/local/ajit_release/
+  817  ls
+  818  cd docs/
+  819  ls
+  820  evince Platform.pdf &
+  821  ls
+  822  gedit serial_device.txt 
+  823  ls
+  824  evince RemoteDebugWithGdb.pdf &
+  825  cd ../../../
+  826  cd ../
+  827  ls
+  828  cd home/sanjose/
+  829  ls
+  830  evince output.pdf &
+  831  ls
+  832  mkdir example1
+  833  ls
+  834  cd example1/
+  835  vim sorting.s
+  836  cd /usr/local/ajit_release/
+  837  source ajit_bashrc 
+  838  cd /usr/local/ahir_release/
+  839  source ahir_bashrc 
+  840  cd ../../../../
+  841  ls
+  842  cd home/sanjose/example1/
+  843  ls
+  844  vim sorting.results
+  845  ls
+  846  vim sorting.results 
+  847  vim sorting.s
+  848  vim sorting.results 
+  849  cd /usr/local/ajit_release/
+  850  source ajit_bashrc 
+  851  cd /usr/local/ahir_release/
+  852  source ahir_bashrc 
+  853  cd ../../../
+  854  ls
+  855  cd home/sanjose/example1/
+  856  ./compile_for_ajit.sh 
+  857  ls
+  858  vim compile_for_ajit.sh 
+  859  ./compile_for_ajit.sh 
+  860  vim sorting.s
+  861  ls
+  862  cdc
+  863  ls
+  864  cd
+  865  ls
+  866  cd example
+  867  ls examples
+  868  ls tutorials/
+  869  ls
+  870  cd examples
+  871  ls
+  872  cd addition/
+  873  ls
+  874  sparc-linux-gdb rpn.elf 
+  875  cd /usr/local/ajit_release/
+  876  source ajit_bashrc 
+  877  cd ../ahir_release/
+  878  source ahir_bashrc 
+  879  cd
+  880  cd examples/addition/
+  881  sparc-linux-gdb rpn.elf 
+  882  ls
+  883  gedit rpn.mmap.remapped 
+  884  gedit rpn.mmap
+  885  cd ../../
+  886  ls
+  887  cd examples/addition/
+  888  ls
+  889  mv rpn.log addition.log
+  890  ls
+  891  vim addition.log 
+  892  vim add_test.log 
+  893  rm add_test.log 
+  894  ls
+  895  rm add_test.wtrace.0 
+  896  ls
+  897  vim rpn.hex 
+  898  mv rpn.hex addition.hex
+  899  mv rpn.mmap addition.mmap
+  900  mv rpn.mmap.remapped addition.mmap.remapped
+  901  vim rpn.objdump 
+  902  ls
+  903  rm addition.mmap.remapped
+  904  rm addition.mmap
+  905  rm addition.hex
+  906  ls
+  907  mv rpn.results addition.results
+  908  ls
+  909  vim addition.results 
+  910  ls
+  911  ./compile_for_ajit.sh
+  912  ls
+  913  mv rpn.mmap.remapped  addition.mmap.remapped
+  914  ls
+  915  mv rpn.mmap addition.mmap
+  916  ls
+  917  mv rpn.hex addition.hex
+  918  mv rpn.elf addition.elf
+  919  ls
+  920  mv rpn.objdump addition.objdump
+  921  ls
+  922  mv rpn.vars addition.vars
+  923  ls
+  924  vim addition.results 
+  925  cd /usr/local/ajit_release/
+  926  source ajit_bashrc 
+  927  cd /usr/local/ahir_release/
+  928  source ahir_bashrc 
+  929  cd /home/sanjose/examples/addition/
+  930  ./compile_for_ajit.sh
+  931  ajit_C_system_model -m addition.mmap.remapped -w addition.wtrace
+  932  ls
+  933  vim compile_for_ajit.sh
+  934  rm rpn.mmap
+  935  rm rpn.mmap.remapped 
+  936  rm rpn.hex 
+  937  rm addition.mmap
+  938  rm addition.mmap.remapped 
+  939  ls
+  940  rm addition.hex 
+  941  rm rpn.objdump 
+  942  rm addition.vars 
+  943  rm rpn.vars 
+  944  ls
+  945  rm addition.objdump 
+  946  rm rpn.elf 
+  947  rm rpn.wtrace.0 
+  948  ls
+  949  rm addition.elf 
+  950  rm addition.wtrace.0 
+  951  ls
+  952  rm addition.log 
+  953  rm compile.log 
+  954  ls
+  955  rm compileLog.txt 
+  956  ls
+  957  ./compile_for_ajit.sh
+  958  ls
+  959  ajit_C_system_model -m addition.mmap.remapped -w addition.wtrace
+  960  ls
+  961  ajit_C_system_model -m addition.mmap.remapped -d -l addition.log -r addition.results -w addition.wtrace
+  962  ls
+  963  gedit addition.log 
+  964  ls
+  965  cd ../
+  966  ls
+  967  mkdir ld_st
+  968  ls
+  969  cd ld_st/
+  970  vim ld_st.s
+  971  ls
+  972  cd ../
+  973  ls
+  974  cd addition/
+  975  ls
+  976  scp init.s /home/sanjose/examples/ld_st/
+  977  scp compile_for_ajit.sh /home/sanjose/examples/ld_st/
+  978  scp vmap.txt  /home/sanjose/examples/ld_st/
+  979  cd /home/sanjose/examples/ld_st/
+  980  ls
+  981  vim ld_st.s
+  982  ls
+  983  vim ld_st.s
+  984  ./compile_for_ajit.sh 
+  985  vim compile_for_ajit.sh 
+  986  ./compile_for_ajit.sh 
+  987  vim ld_st.s
+  988  ./compile_for_ajit.sh 
+  989  cd /home/sanjose/examples/addition/
+  990  ls
+  991  vim addition.elf 
+  992  scp addition.elf /home/sanjose/examples/ld_st/
+  993  ls
+  994  cd /home/sanjose/examples/ld_st/
+  995  ls
+  996  mv addition.elf ld_st.elf
+  997  ls
+  998  rv addition.mmap
+  999  rm addition.mmap
+ 1000  rm addition.mmap.remapped 
+ 1001  rm addition.hex 
+ 1002  ls
+ 1003  ./compile_for_ajit.sh 
+ 1004  vim ld_st.s
+ 1005  ./compile_for_ajit.sh 
+ 1006  vim compile_for_ajit.sh 
+ 1007  ./compile_for_ajit.sh 
+ 1008  ls
+ 1009  ./compile_for_ajit.sh 
+ 1010  ajit_C_system_model -m ld_st.mmap.remapped -w ld_st.wtrace
+ 1011  ls
+ 1012  vim ld_st.results
+ 1013  vim ld_st.s
+ 1014  vim ld_st.results
+ 1015  ajit_C_system_model -m ld_st.mmap.remapped -d -l ld_st.log -r ld_st.results -w ld_st.wtrace
+ 1016  gedit ld_st.log 
+ 1017  cd ../../
+ 1018  ls
+ 1019  cd example
+ 1020  ls
+ 1021  vim sorting.s
+ 1022  cd example
+ 1023  vim sorting.log 
+ 1024  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1025  ajit_C_system_model -m sorting.mmap.remapped 
+ 1026  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+ 1027  vim sorting.log 
+ 1028  vim sorting.s
+ 1029  cd /usr/local/ajit_release/
+ 1030  source ajit_bashrc 
+ 1031  cd /usr/local/ahir_release/
+ 1032  source ahir_bashrc 
+ 1033  cd /home/sanjose/example
+ 1034  ajit_C_system_model -m sorting.mmap.remapped 
+ 1035  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.rpn -r sorting.results 
+ 1036  ajit_C_system_model -m sorting.mmap.remapped \ -w sorting.wtrace -g -p 8888
+ 1037  cd example
+ 1038  cd /usr/local/ajit_release/
+ 1039  source ajit_bashrc 
+ 1040  cd /usr/local/ahir_release/
+ 1041  source ahir_bashrc 
+ 1042  cd /home/sanjose/example
+ 1043  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1044  ajit_C_system_model -m sorting.mmap.remapped 
+ 1045  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+ 1046  sparc-linux-gdb --args sorting.elf
+ 1047  cd example
+ 1048  vim sorting.s
+ 1049  vim sorting.log 
+ 1050  cd ../
+ 1051  ls
+ 1052  cd tutorials/
+ 1053  ls
+ 1054  vim getting_started_README 
+ 1055  gedit getting_started_README &
+ 1056  cd ../
+ 1057  ls
+ 1058  cd example
+ 1059  gedit sorting.objdump 
+ 1060  cd example
+ 1061  cd examples
+ 1062  ls
+ 1063  cd addition/
+ 1064  ls
+ 1065  rm *~
+ 1066  ./compile_for_ajit.sh |&tee compileLog.txt
+ 1067  ajit_C_system_model -m rpn.mmap.remapped
+ 1068  gedit compile_for_ajit.sh &
+ 1069  ajit_C_system_model -m rpn.mmap.remapped -g -p 8888
+ 1070  ls
+ 1071  gedit addition.s
+ 1072  cd ../
+ 1073  cd ld_st/
+ 1074  ls
+ 1075  cd ../../
+ 1076  ls
+ 1077  cd tutorials/
+ 1078  ls
+ 1079  vim getting_started_README 
+ 1080  cd ../
+ 1081  cd examples/ld_st/
+ 1082  ls
+ 1083  cd ../
+ 1084  cd addition/
+ 1085  ls
+ 1086  scp LinkerScript.lnk /home/sanjose/examples/ld_st/
+ 1087  vim addition.s
+ 1088  ls
+ 1089  cd ../
+ 1090  ls
+ 1091  cd ld_st/
+ 1092  ls
+ 1093  vim ld_st.s
+ 1094  vim ld_st.objdump 
+ 1095  cd ../..
+ 1096  cd example
+ 1097  vim sorting.s
+ 1098  sparc-linux-gdb --args sorting.elf 
+ 1099  cd example
+ 1100  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1101  ajit_C_system_model -m sorting.mmap.remapped 
+ 1102  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+ 1103  ajit_C_system_model -m sorting.mmap.remapped \-w sorting.wtrace -g -p 8888
+ 1104  gedit sorting.objdump 
+ 1105  cd ../
+ 1106  cd /usr/local/ajit_release/
+ 1107  ls
+ 1108  cd docs/
+ 1109  ls
+ 1110  gedit DOCS_README 
+ 1111  cd /home/sanjose/example
+ 1112  cd /usr/local/ajit_release/
+ 1113  source ajit_bashrc 
+ 1114  cd /usr/local/ahir_release/
+ 1115  source ahir_bashrc 
+ 1116  cd /home/sanjose/example
+ 1117  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1118  ajit_C_system_model -m sorting.mmap.remapped 
+ 1119  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+ 1120  ajit_C_system_model -m sorting.mmap.remapped \-w sorting.wtrace -g -p 8888
+ 1121  cd /usr/local/ajit_release/
+ 1122  source ajit_bashrc 
+ 1123  cd /usr/local/ahir_release/
+ 1124  source ahir_bashrc 
+ 1125  cd /home/sanjose/example
+ 1126  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1127  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+ 1128  sparc-linux-gdb --args sorting.elf
+ 1129  cd tutorials/
+ 1130  la
+ 1131  gedit getting_started_README &
+ 1132  cd /usr/local/ajit_release/
+ 1133  source ajit_bashrc 
+ 1134  cd /usr/local/ahir_release/
+ 1135  source ahir_bashrc 
+ 1136  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1137  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+ 1138  cd ..
+ 1139  cd examples/
+ 1140  cd addition/
+ 1141  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1142  sparc-linux-gdb --args addition.elf 
+ 1143  cd example
+ 1144  sparc-linux-gdb --args sorting.elf 
+ 1145  gedit sorting.s &
+ 1146  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1147  gedit compileLog.txt 
+ 1148  ajit_C_system_model -m sorting.mmap.remapped
+ 1149  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+ 1150  gedit sorting.log 
+ 1151  sparc-linux-gdb --args sorting.elf 
+ 1152  cd example
+ 1153  cd /usr/local/ajit_release/
+ 1154  source ajit_bashrc 
+ 1155  cd /usr/local/ahir_release/
+ 1156  source ahir_bashrc 
+ 1157  cd /home/sanjose/example
+ 1158  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1159  ajit_C_system_model -m sorting.mmap.remapped 
+ 1160  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+ 1161  ajit_C_system_model -m sorting.mmap.remapped \-w sorting.wtrace -g -p 8888
+ 1162  cd ../
+ 1163  cd examples/addition/
+ 1164  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1165  ajit_C_system_model -m addition.mmap.remapped 
+ 1166  ajit_C_system_model -m addition.mmap.remapped -d -l addition.log -r addition.results -w addition.wtrace
+ 1167  ajit_C_system_model -m addition.mmap.remapped \-w addition.wtrace -g -p 8888
+ 1168  cd ../..
+ 1169  cd example
+ 1170  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1171  ajit_C_system_model -m sorting.mmap.remapped 
+ 1172  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+ 1173  ajit_C_system_model -m sorting.mmap.remapped \-w sorting.wtrace -g -p 8888
+ 1174  cd tutorials/
+ 1175  gedit getting_started_README &
+ 1176  cd ../
+ 1177  cd example
+ 1178  gedit sorting.objdump 
+ 1179  cd ../
+ 1180  cd tutorials/
+ 1181  gedit getting_started_README &
+ 1182  sparc-linux-gdb --args sorting.elf 
+ 1183  cd example
+ 1184  sparc-linux-gdb --args sorting.elf 
+ 1185  sparc-linux-gdb sorting.elf 
+ 1186  cd example
+ 1187  gedit sorting.objdump &
+ 1188  gedit sorting.s
+ 1189  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1190  cd example
+ 1191  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1192  ajit_C_system_model -m sorting.mmap.remapped 
+ 1193  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+ 1194  ajit_C_system_model -m sorting.mmap.remapped \-w sorting.wtrace -g -p 8888
+ 1195  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1196  ajit_C_system_model -m sorting.mmap.remapped -w sorting.wtrace -g -p 8888
+ 1197  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1198  ajit_C_system_model -m sorting.mmap.remapped 
+ 1199  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+ 1200  ajit_C_system_model -m sorting.mmap.remapped -w sorting.wtrace -g -p 8888
+ 1201  cd example
+ 1202  sparc-linux-gdb sorting.elf 
+ 1203  cd example
+ 1204  ls
+ 1205  vim sorting.s
+ 1206  cp sorting.s sorting1.s
+ 1207  vi sorting.s
+ 1208  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1209  gedit compileLog.txt 
+ 1210  vi sorting.s
+ 1211  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1212  gedit compileLog.txt 
+ 1213  ajit_C_system_model -m sorting.mmap.remapped 
+ 1214  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+ 1215  vi sorting.s
+ 1216  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1217  ajit_C_system_model -m sorting.mmap.remapped 
+ 1218  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrace
+ 1219  gedit sorting.log 
+ 1220  vi sorting.s
+ 1221  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1222  ajit_C_system_model -m sorting.mmap.remapped 
+ 1223  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrac
+ 1224  vi sorting.log 
+ 1225  vi sorting.s
+ 1226  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1227  ajit_C_system_model -m sorting.mmap.remapped 
+ 1228  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrac
+ 1229  vi sorting.s
+ 1230  vi sorting.log
+ 1231  vi sorting.s
+ 1232  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1233  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrac
+ 1234  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1235  ajit_C_system_model -m sorting.mmap.remapped 
+ 1236  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrac
+ 1237  vi sorting.log
+ 1238  vi sorting.s
+ 1239  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1240  ajit_C_system_model -m sorting.mmap.remapped 
+ 1241  vi sorting.s
+ 1242  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1243  ajit_C_system_model -m sorting.mmap.remapped 
+ 1244  vi sorting.s
+ 1245  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1246  ajit_C_system_model -m sorting.mmap.remapped 
+ 1247  vi sorting.s
+ 1248  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1249  ajit_C_system_model -m sorting.mmap.remapped 
+ 1250  vi sorting.s
+ 1251  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1252  ajit_C_system_model -m sorting.mmap.remapped 
+ 1253  vi sorting.s
+ 1254  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1255  ajit_C_system_model -m sorting.mmap.remapped 
+ 1256  vi sorting.s
+ 1257  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1258  ajit_C_system_model -m sorting.mmap.remapped 
+ 1259  vi sorting.s
+ 1260  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1261  ajit_C_system_model -m sorting.mmap.remapped 
+ 1262  vi sorting.s
+ 1263  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1264  ajit_C_system_model -m sorting.mmap.remapped 
+ 1265  vi sorting.s
+ 1266  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1267  ajit_C_system_model -m sorting.mmap.remapped 
+ 1268  vi sorting.s
+ 1269  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1270  ajit_C_system_model -m sorting.mmap.remapped 
+ 1271  vi sorting.s
+ 1272  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1273  ls
+ 1274  gedit compile.log 
+ 1275  vi sorting.s
+ 1276  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1277  ajit_C_system_model -m sorting.mmap.remapped 
+ 1278  vi sorting.s
+ 1279  vi sorting.objdump 
+ 1280  vi sorting.s
+ 1281  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1282  ajit_C_system_model -m sorting.mmap.remapped 
+ 1283  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrac
+ 1284  vi sorting.log 
+ 1285  vi sorting.s
+ 1286  vi sorting.objdump 
+ 1287  cd ../examples/hello_world/
+ 1288  ls
+ 1289  vi hello.objdump 
+ 1290  cd ..
+ 1291  cd addition/
+ 1292  ls
+ 1293  vi addition.objdump 
+ 1294  cd ..
+ 1295  cd example
+ 1296  ls
+ 1297  vi sorting.vars 
+ 1298  vi sorting.s
+ 1299  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1300  ajit_C_system_model -m sorting.mmap.remapped 
+ 1301  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrac
+ 1302  vi sorting.log 
+ 1303  vi sorting.s
+ 1304  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1305  ajit_C_system_model -m sorting.mmap.remapped 
+ 1306  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrac
+ 1307  vi sorting.log 
+ 1308  vi sorting.s
+ 1309  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1310  ajit_C_system_model -m sorting.mmap.remapped 
+ 1311  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrac
+ 1312  vi sorting.log 
+ 1313  vi sorting.s
+ 1314  ./compile_for_ajit.sh |& tee compileLog.txt
+ 1315  gedit compileLog.txt 
+ 1316  ajit_C_system_model -m sorting.mmap.remapped 
+ 1317  ajit_C_system_model -m sorting.mmap.remapped -d -l sorting.log -r sorting.results -w sorting.wtrac
+ 1318  vim sorting.log 
+ 1319  vi sorting.s
+ 1320  history > history.txt

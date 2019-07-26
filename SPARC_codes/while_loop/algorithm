@@ -1,0 +1,10 @@
+int temp;
+int x = 0;
+int y = 0x9;
+int z = 0x42;
+	
+	temp = y;
+	while( temp > 0 ){
+		x=x+z;
+		temp = temp - 1;
+		}
