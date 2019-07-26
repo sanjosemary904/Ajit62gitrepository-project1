@@ -1,0 +1,1 @@
+compileToSparc.py -I /usr/include -I ./ -o 0 -s init.s -s $AJIT_TOOLS_RELEASE/tools/ajit_access_routines/asm/trap_handlers.s  -s subd.s -E subd.elf -V subd.vars -H subd.hex -M subd.mmap -O subd.objdump  -L LinkerScript.lnk  -D AJIT

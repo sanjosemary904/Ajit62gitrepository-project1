@@ -1,0 +1,10 @@
+.text
+.global main
+main:
+start:	mov 0x03, %i2
+	mov 0x00, %i3
+	mov 0x04, %i4
+	mov 0x00, %i5
+
+       	vaddd8 %i2, %i4, %i6
+	ta 0

@@ -1,0 +1,1 @@
+compileToSparc.py -g -I /usr/include -I ./  -s vaddd_8_16_32.s -E vaddd_8_16_32.elf -V vaddd_8_16_32.vars -H vaddd_8_16_32.hex -M vaddd_8_16_32.mmap -O vaddd_8_16_32.objdump  -L LinkerScript.lnk  -D AJIT

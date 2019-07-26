@@ -1,0 +1,1 @@
+compileToSparc.py -g -I /usr/include -I ./  -s vsubd_8_16_32.s -E vsubd_8_16_32.elf -V vsubd_8_16_32.vars -H vsubd_8_16_32.hex -M vsubd_8_16_32.mmap -O vsubd_8_16_32.objdump  -L LinkerScript.lnk  -D AJIT

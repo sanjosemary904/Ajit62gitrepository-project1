@@ -1,0 +1,13 @@
+
+.//vaddd_8_16_32.elf:     file format elf32-sparc
+
+
+Disassembly of section .text:
+
+00000000 <main>:
+   0:	84 10 20 03 	mov  3, %g2
+   4:	86 10 20 00 	clr  %g3
+   8:	88 10 20 04 	mov  4, %g4
+   c:	8a 10 20 00 	clr  %g5
+  10:	8c 00 82 44 	vaddd8  %g2, %g4, %g6
+  14:	91 d0 20 00 	ta  0

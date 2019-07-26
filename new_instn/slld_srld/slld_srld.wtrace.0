@@ -1,0 +1,7 @@
+//============== C model register-write trace (cpu-id=0) ============
+//=========================================================================
+0. PC=00000000, Reg-Log=60710201 Fp-Reg-log=00000000  Store-log= 00000000
+1. PC=00000004, Reg-Log=60710300 Fp-Reg-log=00000000  Store-log= 00000000
+2. PC=00000008, Reg-Log=60710601 Fp-Reg-log=00000000  Store-log= 00000000
+3. PC=0000000c, Reg-Log=60710700 Fp-Reg-log=00000000  Store-log= 00000000
+4. PC=00000010, Reg-Log=60710408 Fp-Reg-log=00000000  Store-log= 00000000

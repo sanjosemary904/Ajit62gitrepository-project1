@@ -1,0 +1,13 @@
+.text
+.global main
+main:
+start:	mov 100, %g2
+	
+
+	mov 25, %g3
+
+
+        smuld  %g2, %g3, %g4   
+        sdivd   %g2, %g4, %l2  
+
+end:    ta 0
